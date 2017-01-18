@@ -30,6 +30,8 @@ for i in go:
 mancanti_gdal = list(set(tutti_gdal) ^ set(fatti_gdal))
 mancanti_gdal.sort()
 
+mancanti_gdal.insert(0, "algorithm")
+
 f = open("/home/matteo/lavori/qgis_test_script/lista_test_gdal.csv", 'w')
 
 for i in mancanti_gdal:
@@ -62,6 +64,8 @@ for i in qg:
 
 mancanti_qgis = list(set(tutti_qgis) ^ set(fatti_qgis))
 mancanti_qgis.sort()
+
+mancanti_qgis.insert(0, "algorithm")
 
 f = open("/home/matteo/lavori/qgis_test_script/lista_test_qgis.csv", 'w')
 
