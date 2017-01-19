@@ -49,7 +49,7 @@ f = open("/home/matteo/lavori/qgis_test_script/lista_test_gdal.rst", 'w')
 
 
 for key, value in sorted(d_gdal.items()):
-    f.write('* {} \n'.format(key))
+    f.write('* **{}** \n'.format(key))
     f.write("\n")
     for k, v in value.items():
         f.write(' * {}: \n'.format(k))

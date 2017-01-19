@@ -1,4 +1,4 @@
-* assignprojection 
+* **assignprojection** 
 
  * ticket: 
 
@@ -10,7 +10,7 @@
 
  * note: 
 
-* buildvirtualraster 
+* **buildvirtualraster** 
 
  * ticket: 
 
@@ -22,7 +22,7 @@
 
  * note: 
 
-* clipvectorsbyextent 
+* **clipvectorsbyextent** 
 
  * ticket: 
 
@@ -34,7 +34,7 @@
 
  * note: 
 
-* clipvectorsbypolygon 
+* **clipvectorsbypolygon** 
 
  * ticket: 
 
@@ -46,7 +46,7 @@
 
  * note: 
 
-* colorrelief 
+* **colorrelief** 
 
  * ticket: 
 
@@ -58,7 +58,7 @@
 
  * note: 
 
-* contour 
+* **contour** 
 
  * ticket: 
 
@@ -70,7 +70,7 @@
 
  * note: 
 
-* convertformat 
+* **convertformat** 
 
  * ticket: 
 
@@ -82,7 +82,7 @@
 
  * note: 
 
-* dissolvepolygons 
+* **dissolvepolygons** 
 
  * ticket: 
 
@@ -94,7 +94,7 @@
 
  * note: 
 
-* executesql 
+* **executesql** 
 
  * ticket: 
 
@@ -106,7 +106,7 @@
 
  * note: 
 
-* extractprojection 
+* **extractprojection** 
 
  * ticket: 
 
@@ -118,7 +118,7 @@
 
  * note: 
 
-* fillnodata 
+* **fillnodata** 
 
  * ticket: 
 
@@ -130,7 +130,7 @@
 
  * note: 
 
-* gdal2tiles 
+* **gdal2tiles** 
 
  * ticket: 
 
@@ -142,7 +142,7 @@
 
  * note: 
 
-* gdal2xyz 
+* **gdal2xyz** 
 
  * ticket: 
 
@@ -154,7 +154,7 @@
 
  * note: 
 
-* gridaverage 
+* **gridaverage** 
 
  * ticket: 
 
@@ -166,7 +166,7 @@
 
  * note: 
 
-* griddatametrics 
+* **griddatametrics** 
 
  * ticket: 
 
@@ -178,7 +178,7 @@
 
  * note: 
 
-* gridinvdist 
+* **gridinvdist** 
 
  * ticket: 
 
@@ -190,7 +190,7 @@
 
  * note: 
 
-* gridnearestneighbor 
+* **gridnearestneighbor** 
 
  * ticket: 
 
@@ -202,7 +202,7 @@
 
  * note: 
 
-* importlayertableasgeometrylesstableintopostgresqldatabase 
+* **importlayertableasgeometrylesstableintopostgresqldatabase** 
 
  * ticket: 
 
@@ -214,7 +214,7 @@
 
  * note: 
 
-* importvectorintopostgisdatabaseavailableconnections 
+* **importvectorintopostgisdatabaseavailableconnections** 
 
  * ticket: 
 
@@ -226,7 +226,7 @@
 
  * note: 
 
-* importvectorintopostgisdatabasenewconnection 
+* **importvectorintopostgisdatabasenewconnection** 
 
  * ticket: 
 
@@ -238,7 +238,7 @@
 
  * note: 
 
-* merge 
+* **merge** 
 
  * ticket: 
 
@@ -250,7 +250,7 @@
 
  * note: 
 
-* overviews 
+* **overviews** 
 
  * ticket: 
 
@@ -262,7 +262,7 @@
 
  * note: 
 
-* pcttorgb 
+* **pcttorgb** 
 
  * ticket: 
 
@@ -274,7 +274,7 @@
 
  * note: 
 
-* polygonize 
+* **polygonize** 
 
  * ticket: 
 
@@ -286,7 +286,7 @@
 
  * note: 
 
-* proximity 
+* **proximity** 
 
  * ticket: 
 
@@ -298,7 +298,7 @@
 
  * note: 
 
-* rastercalculator 
+* **rastercalculator** 
 
  * ticket: 
 
@@ -310,7 +310,7 @@
 
  * note: 
 
-* rasterize 
+* **rasterize** 
 
  * ticket: 
 
@@ -322,7 +322,7 @@
 
  * note: 
 
-* rasterize_over 
+* **rasterize_over** 
 
  * ticket: 
 
@@ -334,7 +334,7 @@
 
  * note: 
 
-* retile 
+* **retile** 
 
  * ticket: 
 
@@ -346,7 +346,7 @@
 
  * note: 
 
-* rgbtopct 
+* **rgbtopct** 
 
  * ticket: 
 
@@ -358,7 +358,7 @@
 
  * note: 
 
-* sieve 
+* **sieve** 
 
  * ticket: 
 
@@ -370,7 +370,7 @@
 
  * note: 
 
-* tileindex 
+* **tileindex** 
 
  * ticket: 
 
@@ -382,7 +382,7 @@
 
  * note: 
 
-* translate 
+* **translate** 
 
  * ticket: 
 
@@ -394,7 +394,7 @@
 
  * note: 
 
-* warpreproject 
+* **warpreproject** 
 
  * ticket: 
 

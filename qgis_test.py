@@ -48,7 +48,7 @@ f = open("/home/matteo/lavori/qgis_test_script/lista_test_qgis.rst", 'w')
 
 
 for key, value in sorted(d_qgis.items()):
-    f.write('* {} \n'.format(key))
+    f.write('* **{}** \n'.format(key))
     f.write("\n")
     for k, v in value.items():
         f.write(' * {}: \n'.format(k))

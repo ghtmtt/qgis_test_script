@@ -1,4 +1,4 @@
-* addfieldtoattributestable 
+* **addfieldtoattributestable** 
 
  * ticket: 
 
@@ -10,7 +10,7 @@
 
  * note: 
 
-* advancedpythonfieldcalculator 
+* **advancedpythonfieldcalculator** 
 
  * ticket: 
 
@@ -22,7 +22,7 @@
 
  * note: 
 
-* algorithm 
+* **basicstatisticsfornumericfields** 
 
  * ticket: 
 
@@ -34,7 +34,7 @@
 
  * note: 
 
-* basicstatisticsfornumericfields 
+* **basicstatisticsfortextfields** 
 
  * ticket: 
 
@@ -46,7 +46,7 @@
 
  * note: 
 
-* basicstatisticsfortextfields 
+* **buildvirtualvector** 
 
  * ticket: 
 
@@ -58,7 +58,7 @@
 
  * note: 
 
-* buildvirtualvector 
+* **checkvalidity** 
 
  * ticket: 
 
@@ -70,7 +70,7 @@
 
  * note: 
 
-* checkvalidity 
+* **concavehull** 
 
  * ticket: 
 
@@ -82,7 +82,7 @@
 
  * note: 
 
-* concavehull 
+* **convertgeometrytype** 
 
  * ticket: 
 
@@ -94,7 +94,7 @@
 
  * note: 
 
-* convertgeometrytype 
+* **createconstantrasterlayer** 
 
  * ticket: 
 
@@ -106,7 +106,7 @@
 
  * note: 
 
-* createconstantrasterlayer 
+* **definecurrentprojection** 
 
  * ticket: 
 
@@ -118,7 +118,7 @@
 
  * note: 
 
-* definecurrentprojection 
+* **deleteduplicategeometries** 
 
  * ticket: 
 
@@ -130,7 +130,7 @@
 
  * note: 
 
-* deleteduplicategeometries 
+* **densifygeometriesgivenaninterval** 
 
  * ticket: 
 
@@ -142,7 +142,7 @@
 
  * note: 
 
-* densifygeometriesgivenaninterval 
+* **difference** 
 
  * ticket: 
 
@@ -154,7 +154,7 @@
 
  * note: 
 
-* difference 
+* **distancetonearesthublinetohub** 
 
  * ticket: 
 
@@ -166,7 +166,7 @@
 
  * note: 
 
-* distancetonearesthublinetohub 
+* **distancetonearesthubpoints** 
 
  * ticket: 
 
@@ -178,7 +178,7 @@
 
  * note: 
 
-* distancetonearesthubpoints 
+* **executesql** 
 
  * ticket: 
 
@@ -190,7 +190,7 @@
 
  * note: 
 
-* executesql 
+* **explodelines** 
 
  * ticket: 
 
@@ -202,7 +202,7 @@
 
  * note: 
 
-* explodelines 
+* **extractbylocation** 
 
  * ticket: 
 
@@ -214,7 +214,7 @@
 
  * note: 
 
-* extractbylocation 
+* **fieldcalculator** 
 
  * ticket: 
 
@@ -226,7 +226,7 @@
 
  * note: 
 
-* fieldcalculator 
+* **frequencyanalysis** 
 
  * ticket: 
 
@@ -238,7 +238,7 @@
 
  * note: 
 
-* frequencyanalysis 
+* **generatepointspixelcentroidsalongline** 
 
  * ticket: 
 
@@ -250,7 +250,7 @@
 
  * note: 
 
-* generatepointspixelcentroidsalongline 
+* **generatepointspixelcentroidsinsidepolygons** 
 
  * ticket: 
 
@@ -262,7 +262,7 @@
 
  * note: 
 
-* generatepointspixelcentroidsinsidepolygons 
+* **heatmapkerneldensityestimation** 
 
  * ticket: 
 
@@ -274,7 +274,7 @@
 
  * note: 
 
-* heatmapkerneldensityestimation 
+* **hublines** 
 
  * ticket: 
 
@@ -286,7 +286,7 @@
 
  * note: 
 
-* hublines 
+* **hypsometriccurves** 
 
  * ticket: 
 
@@ -298,7 +298,7 @@
 
  * note: 
 
-* hypsometriccurves 
+* **importintopostgis** 
 
  * ticket: 
 
@@ -310,7 +310,7 @@
 
  * note: 
 
-* importintopostgis 
+* **importintospatialite** 
 
  * ticket: 
 
@@ -322,7 +322,7 @@
 
  * note: 
 
-* importintospatialite 
+* **joinattributesbylocation** 
 
  * ticket: 
 
@@ -334,7 +334,7 @@
 
  * note: 
 
-* joinattributesbylocation 
+* **keepnbiggestparts** 
 
  * ticket: 
 
@@ -346,7 +346,7 @@
 
  * note: 
 
-* keepnbiggestparts 
+* **listuniquevalues** 
 
  * ticket: 
 
@@ -358,7 +358,7 @@
 
  * note: 
 
-* listuniquevalues 
+* **mergevectorlayers** 
 
  * ticket: 
 
@@ -370,7 +370,7 @@
 
  * note: 
 
-* mergevectorlayers 
+* **nearestneighbouranalysis** 
 
  * ticket: 
 
@@ -382,7 +382,7 @@
 
  * note: 
 
-* nearestneighbouranalysis 
+* **numberofuniquevaluesinclasses** 
 
  * ticket: 
 
@@ -394,7 +394,7 @@
 
  * note: 
 
-* numberofuniquevaluesinclasses 
+* **pointsdisplacement** 
 
  * ticket: 
 
@@ -406,7 +406,7 @@
 
  * note: 
 
-* pointsdisplacement 
+* **pointstopath** 
 
  * ticket: 
 
@@ -418,7 +418,7 @@
 
  * note: 
 
-* pointstopath 
+* **polygonfromlayerextent** 
 
  * ticket: 
 
@@ -430,7 +430,7 @@
 
  * note: 
 
-* polygonfromlayerextent 
+* **postgisexecutesql** 
 
  * ticket: 
 
@@ -442,7 +442,7 @@
 
  * note: 
 
-* postgisexecutesql 
+* **randomextract** 
 
  * ticket: 
 
@@ -454,7 +454,7 @@
 
  * note: 
 
-* randomextract 
+* **randomextractwithinsubsets** 
 
  * ticket: 
 
@@ -466,7 +466,7 @@
 
  * note: 
 
-* randomextractwithinsubsets 
+* **randompointsalongline** 
 
  * ticket: 
 
@@ -478,7 +478,7 @@
 
  * note: 
 
-* randompointsalongline 
+* **randompointsinextent** 
 
  * ticket: 
 
@@ -490,7 +490,7 @@
 
  * note: 
 
-* randompointsinextent 
+* **randompointsinlayerbounds** 
 
  * ticket: 
 
@@ -502,7 +502,7 @@
 
  * note: 
 
-* randompointsinlayerbounds 
+* **randompointsinsidepolygonsfixed** 
 
  * ticket: 
 
@@ -514,7 +514,7 @@
 
  * note: 
 
-* randompointsinsidepolygonsfixed 
+* **randompointsinsidepolygonsvariable** 
 
  * ticket: 
 
@@ -526,7 +526,7 @@
 
  * note: 
 
-* randompointsinsidepolygonsvariable 
+* **randomselection** 
 
  * ticket: 
 
@@ -538,7 +538,7 @@
 
  * note: 
 
-* randomselection 
+* **randomselectionwithinsubsets** 
 
  * ticket: 
 
@@ -550,7 +550,7 @@
 
  * note: 
 
-* randomselectionwithinsubsets 
+* **rasterlayerstatistics** 
 
  * ticket: 
 
@@ -562,7 +562,7 @@
 
  * note: 
 
-* rasterlayerstatistics 
+* **rectanglesovalsdiamondsvariable** 
 
  * ticket: 
 
@@ -574,7 +574,7 @@
 
  * note: 
 
-* rectanglesovalsdiamondsvariable 
+* **refactorfields** 
 
  * ticket: 
 
@@ -586,7 +586,7 @@
 
  * note: 
 
-* refactorfields 
+* **regularpoints** 
 
  * ticket: 
 
@@ -598,7 +598,7 @@
 
  * note: 
 
-* regularpoints 
+* **reverselinedirection** 
 
  * ticket: 
 
@@ -610,7 +610,7 @@
 
  * note: 
 
-* reverselinedirection 
+* **saveselectedfeatures** 
 
  * ticket: 
 
@@ -622,7 +622,7 @@
 
  * note: 
 
-* saveselectedfeatures 
+* **selectbyattribute** 
 
  * ticket: 
 
@@ -634,7 +634,7 @@
 
  * note: 
 
-* selectbyattribute 
+* **selectbyattributesum** 
 
  * ticket: 
 
@@ -646,7 +646,7 @@
 
  * note: 
 
-* selectbyattributesum 
+* **selectbyexpression** 
 
  * ticket: 
 
@@ -658,7 +658,7 @@
 
  * note: 
 
-* selectbyexpression 
+* **selectbylocation** 
 
  * ticket: 
 
@@ -670,7 +670,7 @@
 
  * note: 
 
-* selectbylocation 
+* **serviceareafromlayer** 
 
  * ticket: 
 
@@ -682,7 +682,7 @@
 
  * note: 
 
-* serviceareafromlayer 
+* **serviceareafrompoint** 
 
  * ticket: 
 
@@ -694,7 +694,7 @@
 
  * note: 
 
-* serviceareafrompoint 
+* **setstyleforrasterlayer** 
 
  * ticket: 
 
@@ -706,7 +706,7 @@
 
  * note: 
 
-* setstyleforrasterlayer 
+* **setstyleforvectorlayer** 
 
  * ticket: 
 
@@ -718,7 +718,7 @@
 
  * note: 
 
-* setstyleforvectorlayer 
+* **shortestpathlayertopoint** 
 
  * ticket: 
 
@@ -730,7 +730,7 @@
 
  * note: 
 
-* shortestpathlayertopoint 
+* **shortestpathpointtolayer** 
 
  * ticket: 
 
@@ -742,7 +742,7 @@
 
  * note: 
 
-* shortestpathpointtolayer 
+* **shortestpathpointtopoint** 
 
  * ticket: 
 
@@ -754,7 +754,7 @@
 
  * note: 
 
-* shortestpathpointtopoint 
+* **snappointstogrid** 
 
  * ticket: 
 
@@ -766,7 +766,7 @@
 
  * note: 
 
-* snappointstogrid 
+* **spatialiteexecutesql** 
 
  * ticket: 
 
@@ -778,7 +778,7 @@
 
  * note: 
 
-* spatialiteexecutesql 
+* **splitvectorlayer** 
 
  * ticket: 
 
@@ -790,7 +790,7 @@
 
  * note: 
 
-* splitvectorlayer 
+* **statisticsbycategories** 
 
  * ticket: 
 
@@ -802,7 +802,7 @@
 
  * note: 
 
-* statisticsbycategories 
+* **symmetricaldifference** 
 
  * ticket: 
 
@@ -814,7 +814,7 @@
 
  * note: 
 
-* symmetricaldifference 
+* **texttofloat** 
 
  * ticket: 
 
@@ -826,7 +826,7 @@
 
  * note: 
 
-* texttofloat 
+* **union** 
 
  * ticket: 
 
@@ -838,7 +838,7 @@
 
  * note: 
 
-* union 
+* **vectorgridlines** 
 
  * ticket: 
 
@@ -850,7 +850,7 @@
 
  * note: 
 
-* vectorgridlines 
+* **vectorgridpolygons** 
 
  * ticket: 
 
@@ -862,7 +862,7 @@
 
  * note: 
 
-* vectorgridpolygons 
+* **voronoipolygons** 
 
  * ticket: 
 
@@ -874,19 +874,7 @@
 
  * note: 
 
-* voronoipolygons 
-
- * ticket: 
-
- * test: 
-
- * commit: 
-
- * parameter: 
-
- * note: 
-
-* zonalstatisticsqgis 
+* **zonalstatisticsqgis** 
 
  * ticket: 
 
