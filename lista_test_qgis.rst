@@ -1,888 +1,888 @@
 * **addfieldtoattributestable** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **advancedpythonfieldcalculator** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **basicstatisticsfornumericfields** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **basicstatisticsfortextfields** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **buildvirtualvector** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **checkvalidity** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **concavehull** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **convertgeometrytype** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **createconstantrasterlayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **definecurrentprojection** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **deleteduplicategeometries** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **densifygeometriesgivenaninterval** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **difference** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **distancetonearesthublinetohub** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **distancetonearesthubpoints** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **executesql** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **explodelines** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **extractbylocation** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **fieldcalculator** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **frequencyanalysis** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **generatepointspixelcentroidsalongline** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **generatepointspixelcentroidsinsidepolygons** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **heatmapkerneldensityestimation** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **hublines** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **hypsometriccurves** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **importintopostgis** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **importintospatialite** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **joinattributesbylocation** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **keepnbiggestparts** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **listuniquevalues** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **mergevectorlayers** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **nearestneighbouranalysis** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **numberofuniquevaluesinclasses** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **pointsdisplacement** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **pointstopath** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **polygonfromlayerextent** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **postgisexecutesql** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randomextract** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randomextractwithinsubsets** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randompointsalongline** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randompointsinextent** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randompointsinlayerbounds** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randompointsinsidepolygonsfixed** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randompointsinsidepolygonsvariable** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randomselection** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **randomselectionwithinsubsets** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **rasterlayerstatistics** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **rectanglesovalsdiamondsvariable** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **refactorfields** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **regularpoints** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **reverselinedirection** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **saveselectedfeatures** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **selectbyattribute** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **selectbyattributesum** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **selectbyexpression** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **selectbylocation** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **serviceareafromlayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **serviceareafrompoint** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **setstyleforrasterlayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **setstyleforvectorlayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **shortestpathlayertopoint** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **shortestpathpointtolayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **shortestpathpointtopoint** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **snappointstogrid** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **spatialiteexecutesql** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **splitvectorlayer** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **statisticsbycategories** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **symmetricaldifference** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **texttofloat** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **union** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **vectorgridlines** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **vectorgridpolygons** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **voronoipolygons** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
 * **zonalstatisticsqgis** 
 
- * ticket: 
-
- * test: 
-
  * commit: 
+
+ * note: 
 
  * parameter: 
 
- * note: 
+ * test: 
+
+ * ticket: 
 
