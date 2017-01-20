@@ -1,61 +1,60 @@
-# import modules
-import processing
-import yaml
+# GDAL Processing tests framework
 
+# import standard write rst function
+import sys
+sys.path.append('/home/matteo/lavori/qgis_test_script')
 
-##GDALOGR
-gdal = processing.algList.algs['gdal']
+from write_rst import write_rst
 
-# list of all the qgis test available
-tutti_gdal = []
-for k, v in gdal.items():
-    tutti_gdal.append(k[5:])
-    
-# open the yaml file in the repo (pull the repo so list is updated))
-f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/gdal_algorithm_tests.yaml')
+# output file
+gdal_path = "/home/matteo/lavori/qgis_test_script/lista_test_gdal.rst"
 
-data_gdal = yaml.safe_load(f)
-f.close()
-
-for k, v in data_gdal.items():
-    go = v
-
-# list of all the already runned tests    
-fatti_gdal = []
-for i in go:
-    fatti_gdal.append(i['algorithm'][5:])
-
-# compare and create list of missing tests
-mancanti_gdal = list(set(tutti_gdal) ^ set(fatti_gdal))
-# sort the list
-mancanti_gdal.sort()
 
 # dictionary of tests
 d_gdal = {}
 
+# manually update the updated (and merged! tests))
+done_gdal = [
+]
+
+# create list of missing tests to be done
+# complete and raw list of algotihms
+gdal_algs = processing.algList.algs['gdal']
+
+# cleaned list of algorithms
+all_gdal = []
+for k, v in gdal_algs.items():
+    all_gdal.append(k[5:])
+
+# sort the list
+all_gdal.sort()
+
+# match the listo of done and all algorithms and create a list of missing one
+missing_gdal = list(set(all_gdal) ^ set(done_gdal))
+missing_gdal.sort()
+
+# create dictionary of missing alg and write rst file
+
+m_gdal = {}
+for i in missing_gdal:
+    m_gdal[i] = {}
+
+# write the bullet rst file of missing algorithms
+gdal_missing_path = "/home/matteo/lavori/qgis_test_script/missing_gdal.rst"
+write_rst(gdal_missing_path, m_gdal)
+
+
 # fill each key with other empty dict and values
-for i in mancanti_gdal:
-    d_gdal[i] = {
-    'test':[],
-    'parameter':[],
-    'commit':[],
-    'ticket':[], 
-    'note':[]
-    }
+for i in done_gdal:
+    d_gdal[i] = {}
 
 
-# write rst file
-f = open("/home/matteo/lavori/qgis_test_script/lista_test_gdal.rst", 'w')
+
+# manually enter informations on tests made, fails, notes...
+# d_gdal['reprojectlayer']['test'] = ['yes']
+# d_gdal['reprojectlayer']['commit'] = ['627ce52ef5857f5bdaa5857e44f48a9028585ca8']
 
 
-for key, value in sorted(d_gdal.items()):
-    f.write('* **{}** \n'.format(key))
-    f.write("\n")
-    for k, v in sorted(value.items()):
-        f.write(' * {}: \n'.format(k))
-        f.write("\n")
-        for i in v:
-            f.write('  * {} \n'.format(i))
-            f.write("\n")
 
-f.close()
+# write the final rst file
+write_rst(gdal_path, d_gdal)
