@@ -3,7 +3,7 @@ def write_rst(outfile_path, dict_test):
     path = path of the output file, replaces the existing file
     dict_test = provider dictionary test
     '''
-    
+
     f = open(outfile_path, 'w')
 
 
@@ -11,10 +11,17 @@ def write_rst(outfile_path, dict_test):
         f.write('* **{}** \n'.format(key))
         f.write("\n")
         for k, v in sorted(value.items()):
-            f.write(' * {}: \n'.format(k))
-            f.write("\n")
-            for i in v:
-                f.write('  * {} \n'.format(i))
+            if k == 'ticket':
+                f.write(' * {}: \n'.format(k))
                 f.write("\n")
+                for i in v:
+                    f.write('  * <{}>_ \n'.format(i))
+                    f.write("\n")
+            else:
+                f.write(' * {}: \n'.format(k))
+                f.write("\n")
+                for i in v:
+                    f.write('  * {} \n'.format(i))
+                    f.write("\n")
 
     f.close()
