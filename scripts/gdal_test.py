@@ -2,12 +2,12 @@
 
 # import standard write rst function
 import sys
-sys.path.append('/home/matteo/lavori/qgis_test_script')
+sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
 from write_rst import write_rst
 
 # output file
-gdal_path = "/home/matteo/lavori/qgis_test_script/lista_test_gdal.rst"
+gdal_path = "/home/matteo/lavori/qgis_test_script/files/done_committed_gdal.rst"
 
 
 # dictionary of tests
@@ -40,7 +40,7 @@ for i in missing_gdal:
     m_gdal[i] = {}
 
 # write the bullet rst file of missing algorithms
-gdal_missing_path = "/home/matteo/lavori/qgis_test_script/missing_gdal.rst"
+gdal_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_gdal.rst"
 write_rst(gdal_missing_path, m_gdal)
 
 
