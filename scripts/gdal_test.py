@@ -1,6 +1,7 @@
 # GDAL Processing tests framework
 
 # import standard write rst function
+import processing
 import sys
 sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
@@ -43,6 +44,8 @@ for i in missing_gdal:
 gdal_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_gdal.rst"
 write_rst(gdal_missing_path, m_gdal)
 
+done_gdal = [
+]
 
 # fill each key with other empty dict and values
 for i in done_gdal:

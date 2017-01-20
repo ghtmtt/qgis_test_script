@@ -1,6 +1,7 @@
 # QGIS Processing tests framework
 
 # import standard write rst function
+import processing
 import sys
 sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
@@ -65,7 +66,7 @@ for i in done_qgis:
 test = 'yes', 'no', 'not uploadable yet'
 parameter = parameters used during the test (e.g. 'standard', 'dissolve')
 commit = commit(s) sha that are related to the test
-ticket = if tickes have been opened during the test
+ticket = link of the related ticket
 note = additional notes regarding the test
 '''
 
