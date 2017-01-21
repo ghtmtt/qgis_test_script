@@ -1,3 +1,7 @@
+###################
+QGIS Algorithm list
+###################
+
 * **addautoincrementalfield** 
 
 * **addfieldtoattributestable** 

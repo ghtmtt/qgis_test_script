@@ -42,7 +42,7 @@ for i in missing_gdal:
 
 # write the bullet rst file of missing algorithms
 gdal_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_gdal.rst"
-write_rst(gdal_missing_path, m_gdal)
+write_rst(gdal_missing_path, m_gdal, 'gdal')
 
 done_gdal = [
 ]
@@ -60,4 +60,4 @@ for i in done_gdal:
 
 
 # write the final rst file
-write_rst(gdal_path, d_gdal)
+write_rst(gdal_path, d_gdal, 'gdal')

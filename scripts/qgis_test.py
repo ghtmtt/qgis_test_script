@@ -54,7 +54,7 @@ for i in missing_qgis:
 
 # write the bullet rst file of missing algorithms
 qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
-write_rst(qgis_missing_path, m_qgis)
+write_rst(qgis_missing_path, m_qgis, 'qgis')
 
 
 # fill each key with other empty dict and values
@@ -109,4 +109,4 @@ d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9
 print(len(done_qgis))
 
 # write the final rst file
-write_rst(qgis_path, d_qgis)
+write_rst(qgis_path, d_qgis, 'qgis')

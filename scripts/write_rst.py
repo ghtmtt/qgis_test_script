@@ -1,10 +1,21 @@
-def write_rst(outfile_path, dict_test):
+def write_rst(outfile_path, dict_test, provider):
     '''
     path = path of the output file, replaces the existing file
     dict_test = provider dictionary test
     '''
 
+    if provider == 'qgis':
+        s = 'QGIS Algorithm list'
+        h = '#' * len(s)
+        # return s, h
+    elif provider == 'gdal':
+        s = 'GDAL Algorithm list'
+        h = '#' * len(s)
+        # return s, h
+
     f = open(outfile_path, 'w')
+
+    f.write('{}\n{}\n{}\n\n'.format(h, s, h))
 
 
     for key, value in sorted(dict_test.items()):
