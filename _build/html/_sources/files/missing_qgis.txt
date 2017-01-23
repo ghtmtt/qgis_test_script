@@ -1,0 +1,266 @@
+###################
+QGIS Algorithm list
+###################
+
+* **addautoincrementalfield** 
+
+* **addfieldtoattributestable** 
+
+* **advancedpythonfieldcalculator** 
+
+* **aspect** 
+
+* **basicstatisticsforfields** 
+
+* **basicstatisticsfornumericfields** 
+
+* **basicstatisticsfortextfields** 
+
+* **boundary** 
+
+* **boundingboxes** 
+
+* **buildvirtualvector** 
+
+* **centroids** 
+
+* **checkvalidity** 
+
+* **clip** 
+
+* **convertgeometrytype** 
+
+* **countpointsinpolygon** 
+
+* **createattributeindex** 
+
+* **createconstantrasterlayer** 
+
+* **creategridlines** 
+
+* **creategridpolygon** 
+
+* **createpointslayerfromtable** 
+
+* **createspatialindex** 
+
+* **definecurrentprojection** 
+
+* **delaunaytriangulation** 
+
+* **deletecolumn** 
+
+* **deleteduplicategeometries** 
+
+* **deleteholes** 
+
+* **densifygeometries** 
+
+* **densifygeometriesgivenaninterval** 
+
+* **difference** 
+
+* **dissolve** 
+
+* **distancematrix** 
+
+* **distancetonearesthublinetohub** 
+
+* **distancetonearesthubpoints** 
+
+* **dropgeometries** 
+
+* **eliminatesliverpolygons** 
+
+* **executesql** 
+
+* **explodelines** 
+
+* **exportaddgeometrycolumns** 
+
+* **extendlines** 
+
+* **extractbyattribute** 
+
+* **extractbyexpression** 
+
+* **extractbylocation** 
+
+* **extractnodes** 
+
+* **extractspecificnodes** 
+
+* **fieldcalculator** 
+
+* **fixeddistancebuffer** 
+
+* **frequencyanalysis** 
+
+* **generatepointspixelcentroidsalongline** 
+
+* **generatepointspixelcentroidsinsidepolygons** 
+
+* **geometrybyexpression** 
+
+* **heatmapkerneldensityestimation** 
+
+* **hillshade** 
+
+* **hublines** 
+
+* **hypsometriccurves** 
+
+* **idwinterpolation** 
+
+* **importintopostgis** 
+
+* **importintospatialite** 
+
+* **intersection** 
+
+* **joinattributesbylocation** 
+
+* **keepnbiggestparts** 
+
+* **lineintersections** 
+
+* **listuniquevalues** 
+
+* **mergelines** 
+
+* **mergevectorlayers** 
+
+* **multiparttosingleparts** 
+
+* **nearestneighbouranalysis** 
+
+* **numberofuniquevaluesinclasses** 
+
+* **offsetline** 
+
+* **orientedminimumboundingbox** 
+
+* **orthogonalize** 
+
+* **pointonsurface** 
+
+* **pointsdisplacement** 
+
+* **pointstopath** 
+
+* **poleofinaccessibility** 
+
+* **polygoncentroids** 
+
+* **polygonfromlayerextent** 
+
+* **polygonstolines** 
+
+* **postgisexecutesql** 
+
+* **randomextract** 
+
+* **randomextractwithinsubsets** 
+
+* **randompointsalongline** 
+
+* **randompointsinextent** 
+
+* **randompointsinlayerbounds** 
+
+* **randompointsinsidepolygonsfixed** 
+
+* **randompointsinsidepolygonsvariable** 
+
+* **randomselection** 
+
+* **randomselectionwithinsubsets** 
+
+* **rastercalculator** 
+
+* **rasterlayerstatistics** 
+
+* **rectanglesovalsdiamondsfixed** 
+
+* **rectanglesovalsdiamondsvariable** 
+
+* **refactorfields** 
+
+* **regularpoints** 
+
+* **relief** 
+
+* **removenullgeometries** 
+
+* **reverselinedirection** 
+
+* **ruggednessindex** 
+
+* **saveselectedfeatures** 
+
+* **selectbyattribute** 
+
+* **selectbyattributesum** 
+
+* **selectbyexpression** 
+
+* **selectbylocation** 
+
+* **serviceareafromlayer** 
+
+* **serviceareafrompoint** 
+
+* **setstyleforrasterlayer** 
+
+* **setstyleforvectorlayer** 
+
+* **shortestpathlayertopoint** 
+
+* **shortestpathpointtolayer** 
+
+* **shortestpathpointtopoint** 
+
+* **simplifygeometries** 
+
+* **singlesidedbuffer** 
+
+* **slope** 
+
+* **smoothgeometry** 
+
+* **snapgeometriestolayer** 
+
+* **snappointstogrid** 
+
+* **spatialiteexecutesql** 
+
+* **splitlineswithlines** 
+
+* **splitvectorlayer** 
+
+* **splitwithlines** 
+
+* **statisticsbycategories** 
+
+* **sumlinelengths** 
+
+* **symmetricaldifference** 
+
+* **texttofloat** 
+
+* **tininterpolation** 
+
+* **translategeometry** 
+
+* **truncatetable** 
+
+* **union** 
+
+* **vectorgridlines** 
+
+* **vectorgridpolygons** 
+
+* **voronoipolygons** 
+
+* **zonalstatisticsqgis** 
+
