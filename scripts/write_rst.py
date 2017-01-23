@@ -22,17 +22,10 @@ def write_rst(outfile_path, dict_test, provider):
         f.write('* **{}** \n'.format(key))
         f.write("\n")
         for k, v in sorted(value.items()):
-            if k == 'ticket':
-                f.write(' * {}: \n'.format(k))
+            f.write(' * {}: \n'.format(k))
+            f.write("\n")
+            for i in v:
+                f.write('  * {} \n'.format(i))
                 f.write("\n")
-                for i in v:
-                    f.write('  * <{}>_ \n'.format(i))
-                    f.write("\n")
-            else:
-                f.write(' * {}: \n'.format(k))
-                f.write("\n")
-                for i in v:
-                    f.write('  * {} \n'.format(i))
-                    f.write("\n")
 
     f.close()
