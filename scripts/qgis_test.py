@@ -20,13 +20,19 @@ done_qgis = [
 'adduniquevalueindexfield',
 'linestopolygons',
 'joinattributestable',
+'convexhull',
 'countuniquepointsinpolygon',
 'countpointsinpolygonweighted',
 'pointsalonglines',
 'meancoordinates',
 'singlepartstomultipart',
-'zonalstatistics'
+'zonalstatistics',
+### test not made but ticket opened
+'concavehull',
+'randomextract'
 ]
+
+
 
 
 # create list of missing tests to be done
@@ -87,6 +93,10 @@ d_qgis['linestopolygons']['commit'] = ['627ce52ef5857f5bdaa5857e44f48a9028585ca8
 d_qgis['joinattributestable']['test'] = ['yes']
 d_qgis['joinattributestable']['commit'] = ['627ce52ef5857f5bdaa5857e44f48a9028585ca8']
 
+d_qgis['convexhull']['test'] = ['yes']
+d_qgis['convexhull']['parameter'] = ['minimum hull', 'hull based on field']
+d_qgis['convexhull']['commit'] = ['116e5674b0560a6ebd7ae1cf34770b7fb29829c2']
+
 d_qgis['countuniquepointsinpolygon']['test'] = ['yes']
 d_qgis['countuniquepointsinpolygon']['commit'] = ['94856b59b1e711a6900c46c8815b7408da1cd4ac', '590abf0a4409d612712635374462561cbad34340']
 
@@ -98,12 +108,22 @@ d_qgis['pointsalonglines']['commit'] = ['2c6649358af613f8861e2a9f5b910c11b04c9af
 
 d_qgis['meancoordinates']['test'] = ['yes']
 d_qgis['meancoordinates']['commit'] = ['7958db29d116d0bfec462c155b3ffeb5e9f44e4e']
+d_qgis['meancoordinates']['ticket'] = ['http://hub.qgis.org/issues/16066']
 
 d_qgis['singlepartstomultipart']['test'] = ['yes']
 d_qgis['singlepartstomultipart']['commit'] = ['c25907010228c1c5594e949362beb539c3639aaf']
 
 d_qgis['zonalstatistics']['test'] = ['yes']
 d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
+
+
+# no test but ticket opened
+
+d_qgis['concavehull']['test'] = ['no']
+d_qgis['concavehull']['ticket'] = ['http://hub.qgis.org/issues/15985']
+
+d_qgis['randomextract']['test'] = ['no']
+d_qgis['randomextract']['ticket'] = ['http://hub.qgis.org/issues/16069']
 
 
 print(len(done_qgis))
