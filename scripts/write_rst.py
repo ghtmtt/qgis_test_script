@@ -4,6 +4,9 @@ def write_rst(outfile_path, dict_test, provider):
     dict_test = provider dictionary test
     '''
 
+    gh_link = 'https://github.com/qgis/QGIS/commit/'
+
+
     if provider == 'qgis':
         s = 'QGIS Algorithm list'
         h = '#' * len(s)
@@ -22,10 +25,17 @@ def write_rst(outfile_path, dict_test, provider):
         f.write('* **{}** \n'.format(key))
         f.write("\n")
         for k, v in sorted(value.items()):
-            f.write(' * {}: \n'.format(k))
-            f.write("\n")
-            for i in v:
-                f.write('  * {} \n'.format(i))
+            if k == 'commit':
+                f.write(' * {}: \n'.format(k))
                 f.write("\n")
+                for c in v:
+                    f.write('  * {}{} \n'.format(gh_link, c))
+                    f.write("\n")
+            else:
+                f.write(' * {}: \n'.format(k))
+                f.write("\n")
+                for i in v:
+                    f.write('  * {} \n'.format(i))
+                    f.write("\n")
 
     f.close()
