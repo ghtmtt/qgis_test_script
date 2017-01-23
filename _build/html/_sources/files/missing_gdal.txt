@@ -64,10 +64,6 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
-* **rasterize** 
-
-* **rasterize_over** 
-
 * **retile** 
 
 * **rgbtopct** 

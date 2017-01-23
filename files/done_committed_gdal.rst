@@ -6,9 +6,9 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
+  * https://github.com/qgis/QGIS/commit/eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
 
-  * 6adbb8b7f5ba14326f83ce9b6eb72bc5 
+  * https://github.com/qgis/QGIS/commit/6adbb8b7f5ba14326f83ce9b6eb72bc5 
 
  * parameter: 
 
@@ -30,9 +30,9 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
+  * https://github.com/qgis/QGIS/commit/eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
 
-  * 6adbb8b7f5ba14326f83ce9b6eb72bc5 
+  * https://github.com/qgis/QGIS/commit/6adbb8b7f5ba14326f83ce9b6eb72bc5 
 
  * parameter: 
 
@@ -48,9 +48,9 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
+  * https://github.com/qgis/QGIS/commit/eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
 
-  * 6adbb8b7f5ba14326f83ce9b6eb72bc5 
+  * https://github.com/qgis/QGIS/commit/6adbb8b7f5ba14326f83ce9b6eb72bc5 
 
  * parameter: 
 
@@ -70,9 +70,9 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
+  * https://github.com/qgis/QGIS/commit/eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
 
-  * 6adbb8b7f5ba14326f83ce9b6eb72bc5 
+  * https://github.com/qgis/QGIS/commit/6adbb8b7f5ba14326f83ce9b6eb72bc5 
 
  * parameter: 
 
@@ -90,7 +90,7 @@ GDAL Algorithm list
 
  * commit: 
 
-  * 1f645c19968603a443839a67dd2b7e9e526f2c76 
+  * https://github.com/qgis/QGIS/commit/1f645c19968603a443839a67dd2b7e9e526f2c76 
 
  * parameter: 
 
@@ -124,7 +124,7 @@ GDAL Algorithm list
 
  * commit: 
 
-  * 64f2b660fdb34a447e072777727fe578dac44087 
+  * https://github.com/qgis/QGIS/commit/64f2b660fdb34a447e072777727fe578dac44087 
 
  * parameter: 
 
@@ -140,9 +140,9 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
+  * https://github.com/qgis/QGIS/commit/eab5ae28ec2a5dcbbccfd17d8d3ddda376b53c16 
 
-  * 6adbb8b7f5ba14326f83ce9b6eb72bc5 
+  * https://github.com/qgis/QGIS/commit/6adbb8b7f5ba14326f83ce9b6eb72bc5 
 
  * parameter: 
 
@@ -162,7 +162,7 @@ GDAL Algorithm list
 
  * commit: 
 
-  * eb826fb058189cbfc43bc822bcd5088c198c090a 
+  * https://github.com/qgis/QGIS/commit/eb826fb058189cbfc43bc822bcd5088c198c090a 
 
  * parameter: 
 
@@ -178,7 +178,7 @@ GDAL Algorithm list
 
  * commit: 
 
-  * ad11ec4b7f04d5c3f6ff1bffb2f6fd48ba96bf70 
+  * https://github.com/qgis/QGIS/commit/ad11ec4b7f04d5c3f6ff1bffb2f6fd48ba96bf70 
 
  * parameter: 
 

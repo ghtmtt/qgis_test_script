@@ -158,8 +158,6 @@ QGIS Algorithm list
 
 * **postgisexecutesql** 
 
-* **randomextract** 
-
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 

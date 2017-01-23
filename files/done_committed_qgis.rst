@@ -6,7 +6,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+  * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
 
  * test: 
 
@@ -26,7 +26,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 116e5674b0560a6ebd7ae1cf34770b7fb29829c2 
+  * https://github.com/qgis/QGIS/commit/116e5674b0560a6ebd7ae1cf34770b7fb29829c2 
 
  * parameter: 
 
@@ -42,7 +42,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 94856b59b1e711a6900c46c8815b7408da1cd4ac 
+  * https://github.com/qgis/QGIS/commit/94856b59b1e711a6900c46c8815b7408da1cd4ac 
 
  * test: 
 
@@ -52,9 +52,9 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 94856b59b1e711a6900c46c8815b7408da1cd4ac 
+  * https://github.com/qgis/QGIS/commit/94856b59b1e711a6900c46c8815b7408da1cd4ac 
 
-  * 590abf0a4409d612712635374462561cbad34340 
+  * https://github.com/qgis/QGIS/commit/590abf0a4409d612712635374462561cbad34340 
 
  * test: 
 
@@ -64,7 +64,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+  * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
 
  * test: 
 
@@ -74,7 +74,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+  * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
 
  * test: 
 
@@ -84,7 +84,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 7958db29d116d0bfec462c155b3ffeb5e9f44e4e 
+  * https://github.com/qgis/QGIS/commit/7958db29d116d0bfec462c155b3ffeb5e9f44e4e 
 
  * test: 
 
@@ -98,7 +98,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 2c6649358af613f8861e2a9f5b910c11b04c9af4 
+  * https://github.com/qgis/QGIS/commit/2c6649358af613f8861e2a9f5b910c11b04c9af4 
 
  * test: 
 
@@ -118,7 +118,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+  * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
 
  * test: 
 
@@ -128,7 +128,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * c25907010228c1c5594e949362beb539c3639aaf 
+  * https://github.com/qgis/QGIS/commit/c25907010228c1c5594e949362beb539c3639aaf 
 
  * test: 
 
@@ -138,7 +138,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+  * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
 
  * parameter: 
 
@@ -154,7 +154,7 @@ QGIS Algorithm list
 
  * commit: 
 
-  * 8994877717bbb0b3beb86ee6f53926e777eadcc9 
+  * https://github.com/qgis/QGIS/commit/8994877717bbb0b3beb86ee6f53926e777eadcc9 
 
  * test: 
 
