@@ -2,17 +2,11 @@
 GDAL Algorithm list
 ###################
 
-* **aspect** 
-
 * **assignprojection** 
 
 * **buffervectors** 
 
 * **buildvirtualraster** 
-
-* **cliprasterbyextent** 
-
-* **cliprasterbymasklayer** 
 
 * **clipvectorsbyextent** 
 
@@ -48,8 +42,6 @@ GDAL Algorithm list
 
 * **gridnearestneighbor** 
 
-* **hillshade** 
-
 * **importlayertableasgeometrylesstableintopostgresqldatabase** 
 
 * **importvectorintopostgisdatabaseavailableconnections** 
@@ -57,8 +49,6 @@ GDAL Algorithm list
 * **importvectorintopostgisdatabasenewconnection** 
 
 * **merge** 
-
-* **nearblack** 
 
 * **offsetlinesforlines** 
 
@@ -74,29 +64,17 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
-* **rasterize** 
-
-* **rasterize_over** 
-
 * **retile** 
 
 * **rgbtopct** 
-
-* **roughness** 
 
 * **sieve** 
 
 * **singlesidedbufferforlines** 
 
-* **slope** 
-
 * **tileindex** 
 
-* **tpitopographicpositionindex** 
-
 * **translate** 
-
-* **triterrainruggednessindex** 
 
 * **warpreproject** 
 

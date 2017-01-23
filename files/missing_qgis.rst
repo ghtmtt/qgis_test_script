@@ -28,11 +28,7 @@ QGIS Algorithm list
 
 * **clip** 
 
-* **concavehull** 
-
 * **convertgeometrytype** 
-
-* **convexhull** 
 
 * **countpointsinpolygon** 
 
@@ -161,8 +157,6 @@ QGIS Algorithm list
 * **polygonstolines** 
 
 * **postgisexecutesql** 
-
-* **randomextract** 
 
 * **randomextractwithinsubsets** 
 

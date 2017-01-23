@@ -12,6 +12,32 @@ QGIS Algorithm list
 
   * yes 
 
+* **concavehull** 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/15985 
+
+* **convexhull** 
+
+ * commit: 
+
+  * 116e5674b0560a6ebd7ae1cf34770b7fb29829c2 
+
+ * parameter: 
+
+  * minimum hull 
+
+  * hull based on field 
+
+ * test: 
+
+  * yes 
+
 * **countpointsinpolygonweighted** 
 
  * commit: 
@@ -64,6 +90,10 @@ QGIS Algorithm list
 
   * yes 
 
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16066 
+
 * **pointsalonglines** 
 
  * commit: 
@@ -73,6 +103,16 @@ QGIS Algorithm list
  * test: 
 
   * yes 
+
+* **randomextract** 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16069 
 
 * **reprojectlayer** 
 
