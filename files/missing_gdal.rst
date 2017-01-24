@@ -12,8 +12,6 @@ GDAL Algorithm list
 
 * **clipvectorsbypolygon** 
 
-* **colorrelief** 
-
 * **contour** 
 
 * **convertformat** 

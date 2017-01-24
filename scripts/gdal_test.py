@@ -25,6 +25,7 @@ done_gdal = [
 'triterrainruggednessindex',
 'nearblack',
 'tpitopographicpositionindex',
+'colorrelief',
 ### test not made but ticket opened
 'rasterize',
 'rasterize_over'
@@ -101,6 +102,10 @@ d_gdal['nearblack']['commit'] = ['1f645c19968603a443839a67dd2b7e9e526f2c76']
 d_gdal['tpitopographicpositionindex']['test'] = ['yes']
 d_gdal['tpitopographicpositionindex']['parameter'] = ['standard', 'with edges']
 d_gdal['tpitopographicpositionindex']['commit'] = ['eb826fb058189cbfc43bc822bcd5088c198c090a']
+
+d_gdal['colorrelief']['test'] = ['yes']
+d_gdal['colorrelief']['parameter'] = ['standard', 'with edges']
+d_gdal['colorrelief']['commit'] = ['4a60ef7c46c08016a9be0d8db6f06bf0dc15f977']
 
 ## no tests but ticket opened
 d_gdal['rasterize']['test'] = ['no']

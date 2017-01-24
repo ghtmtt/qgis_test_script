@@ -66,6 +66,22 @@ GDAL Algorithm list
 
   * yes 
 
+* **colorrelief** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/4a60ef7c46c08016a9be0d8db6f06bf0dc15f977 
+
+ * parameter: 
+
+  * standard 
+
+  * with edges 
+
+ * test: 
+
+  * yes 
+
 * **hillshade** 
 
  * commit: 
