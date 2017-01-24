@@ -3,6 +3,8 @@
 # import standard write rst function
 import processing
 import sys
+import yaml
+
 sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
 from write_rst import write_rst
@@ -10,11 +12,23 @@ from write_rst import write_rst
 # output file
 gdal_path = "/home/matteo/lavori/qgis_test_script/files/done_committed_gdal.rst"
 
+# yaml file from the repo, ALL THE TESTS MADE!
+f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/gdal_algorithm_tests.yaml')
+data_gdal = yaml.safe_load(f)
+f.close()
+
+# list of all the test in the repository yaml file
+f_gdal = []
+
+for k, v in data_gdal.items():
+    for i in v:
+        f_gdal.append(i['algorithm'][5:])
+
 
 # dictionary of tests
 d_gdal = {}
 
-# manually update the updated (and merged! tests))
+# manually update tests I MADE (and merged! tests))
 done_gdal = [
 'aspect',
 'cliprasterbyextent',
@@ -44,7 +58,7 @@ for k, v in gdal_algs.items():
 all_gdal.sort()
 
 # match the listo of done and all algorithms and create a list of missing one
-missing_gdal = list(set(all_gdal) ^ set(done_gdal))
+missing_gdal = list(set(all_gdal) ^ set(f_gdal))
 missing_gdal.sort()
 
 # create dictionary of missing alg and write rst file

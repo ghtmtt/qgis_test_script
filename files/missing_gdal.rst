@@ -4,8 +4,6 @@ GDAL Algorithm list
 
 * **assignprojection** 
 
-* **buffervectors** 
-
 * **buildvirtualraster** 
 
 * **clipvectorsbyextent** 
@@ -15,8 +13,6 @@ GDAL Algorithm list
 * **contour** 
 
 * **convertformat** 
-
-* **createpointsalonglines** 
 
 * **dissolvepolygons** 
 
@@ -29,8 +25,6 @@ GDAL Algorithm list
 * **gdal2tiles** 
 
 * **gdal2xyz** 
-
-* **gdalinfo** 
 
 * **gridaverage** 
 
@@ -48,10 +42,6 @@ GDAL Algorithm list
 
 * **merge** 
 
-* **offsetlinesforlines** 
-
-* **ogrinfo** 
-
 * **overviews** 
 
 * **pcttorgb** 
@@ -62,13 +52,15 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
+* **rasterize** 
+
+* **rasterize_over** 
+
 * **retile** 
 
 * **rgbtopct** 
 
 * **sieve** 
-
-* **singlesidedbufferforlines** 
 
 * **tileindex** 
 

@@ -2,97 +2,43 @@
 QGIS Algorithm list
 ###################
 
-* **addautoincrementalfield** 
-
 * **addfieldtoattributestable** 
 
 * **advancedpythonfieldcalculator** 
-
-* **aspect** 
-
-* **basicstatisticsforfields** 
 
 * **basicstatisticsfornumericfields** 
 
 * **basicstatisticsfortextfields** 
 
-* **boundary** 
-
-* **boundingboxes** 
-
 * **buildvirtualvector** 
-
-* **centroids** 
 
 * **checkvalidity** 
 
-* **clip** 
+* **concavehull** 
 
 * **convertgeometrytype** 
 
-* **countpointsinpolygon** 
-
-* **createattributeindex** 
-
 * **createconstantrasterlayer** 
-
-* **creategridlines** 
-
-* **creategridpolygon** 
-
-* **createpointslayerfromtable** 
-
-* **createspatialindex** 
 
 * **definecurrentprojection** 
 
-* **delaunaytriangulation** 
-
-* **deletecolumn** 
-
 * **deleteduplicategeometries** 
-
-* **deleteholes** 
-
-* **densifygeometries** 
 
 * **densifygeometriesgivenaninterval** 
 
 * **difference** 
 
-* **dissolve** 
-
-* **distancematrix** 
-
 * **distancetonearesthublinetohub** 
 
 * **distancetonearesthubpoints** 
-
-* **dropgeometries** 
-
-* **eliminatesliverpolygons** 
 
 * **executesql** 
 
 * **explodelines** 
 
-* **exportaddgeometrycolumns** 
-
-* **extendlines** 
-
-* **extractbyattribute** 
-
-* **extractbyexpression** 
-
 * **extractbylocation** 
 
-* **extractnodes** 
-
-* **extractspecificnodes** 
-
 * **fieldcalculator** 
-
-* **fixeddistancebuffer** 
 
 * **frequencyanalysis** 
 
@@ -100,63 +46,37 @@ QGIS Algorithm list
 
 * **generatepointspixelcentroidsinsidepolygons** 
 
-* **geometrybyexpression** 
-
 * **heatmapkerneldensityestimation** 
-
-* **hillshade** 
 
 * **hublines** 
 
 * **hypsometriccurves** 
 
-* **idwinterpolation** 
-
 * **importintopostgis** 
 
 * **importintospatialite** 
-
-* **intersection** 
 
 * **joinattributesbylocation** 
 
 * **keepnbiggestparts** 
 
-* **lineintersections** 
-
 * **listuniquevalues** 
 
-* **mergelines** 
-
 * **mergevectorlayers** 
-
-* **multiparttosingleparts** 
 
 * **nearestneighbouranalysis** 
 
 * **numberofuniquevaluesinclasses** 
 
-* **offsetline** 
-
-* **orientedminimumboundingbox** 
-
-* **orthogonalize** 
-
-* **pointonsurface** 
-
 * **pointsdisplacement** 
 
 * **pointstopath** 
 
-* **poleofinaccessibility** 
-
-* **polygoncentroids** 
-
 * **polygonfromlayerextent** 
 
-* **polygonstolines** 
-
 * **postgisexecutesql** 
+
+* **randomextract** 
 
 * **randomextractwithinsubsets** 
 
@@ -174,11 +94,7 @@ QGIS Algorithm list
 
 * **randomselectionwithinsubsets** 
 
-* **rastercalculator** 
-
 * **rasterlayerstatistics** 
-
-* **rectanglesovalsdiamondsfixed** 
 
 * **rectanglesovalsdiamondsvariable** 
 
@@ -186,13 +102,7 @@ QGIS Algorithm list
 
 * **regularpoints** 
 
-* **relief** 
-
-* **removenullgeometries** 
-
 * **reverselinedirection** 
-
-* **ruggednessindex** 
 
 * **saveselectedfeatures** 
 
@@ -218,39 +128,17 @@ QGIS Algorithm list
 
 * **shortestpathpointtopoint** 
 
-* **simplifygeometries** 
-
-* **singlesidedbuffer** 
-
-* **slope** 
-
-* **smoothgeometry** 
-
-* **snapgeometriestolayer** 
-
 * **snappointstogrid** 
 
 * **spatialiteexecutesql** 
 
-* **splitlineswithlines** 
-
 * **splitvectorlayer** 
 
-* **splitwithlines** 
-
 * **statisticsbycategories** 
-
-* **sumlinelengths** 
 
 * **symmetricaldifference** 
 
 * **texttofloat** 
-
-* **tininterpolation** 
-
-* **translategeometry** 
-
-* **truncatetable** 
 
 * **union** 
 

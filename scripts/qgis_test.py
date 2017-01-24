@@ -3,12 +3,26 @@
 # import standard write rst function
 import processing
 import sys
+import yaml
+
 sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
 from write_rst import write_rst
 
 # output file
 qgis_path = "/home/matteo/lavori/qgis_test_script/files/done_committed_qgis.rst"
+
+# yaml file from the repo, ALL THE TESTS MADE!
+f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/qgis_algorithm_tests.yaml')
+data_qgis = yaml.safe_load(f)
+f.close()
+
+# list of all the test in the repository yaml file
+f_qgis = []
+
+for k, v in data_qgis.items():
+    for i in v:
+        f_qgis.append(i['algorithm'][5:])
 
 # empty dictionary of tests
 d_qgis = {}
@@ -49,7 +63,7 @@ all_qgis.sort()
 
 
 # match the listo of done and all algorithms and create a list of missing one
-missing_qgis = list(set(all_qgis) ^ set(done_qgis))
+missing_qgis = list(set(all_qgis) ^ set(f_qgis))
 missing_qgis.sort()
 
 # create dictionary of missing alg and write rst file
