@@ -2,6 +2,7 @@ def write_rst(outfile_path, dict_test, provider):
     '''
     path = path of the output file, replaces the existing file
     dict_test = provider dictionary test
+    provider = provider string, 'qgis' or 'gdal'
     '''
 
     gh_link = 'https://github.com/qgis/QGIS/commit/'
