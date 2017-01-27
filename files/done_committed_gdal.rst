@@ -102,6 +102,22 @@ GDAL Algorithm list
 
   * yes 
 
+* **merge** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/765149466da5602b78101d0ef0395243fcaa001c 
+
+ * parameter: 
+
+  * standard 
+
+  * separate into bands 
+
+ * test: 
+
+  * yes 
+
 * **nearblack** 
 
  * commit: 
@@ -115,26 +131,6 @@ GDAL Algorithm list
  * test: 
 
   * yes 
-
-* **rasterize** 
-
- * test: 
-
-  * no 
-
- * ticket: 
-
-  * http://hub.qgis.org/issues/16061 
-
-* **rasterize_over** 
-
- * test: 
-
-  * no 
-
- * ticket: 
-
-  * http://hub.qgis.org/issues/16061 
 
 * **roughness** 
 

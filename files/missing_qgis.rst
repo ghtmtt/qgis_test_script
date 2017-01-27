@@ -14,8 +14,8 @@ QGIS Algorithm list
 
 * **checkvalidity** 
 
-* **concavehull** 
-
+* **concavehull** BUG!! see ['http://hub.qgis.org/issues/15985'] 
+ 
 * **convertgeometrytype** 
 
 * **createconstantrasterlayer** 
@@ -76,8 +76,8 @@ QGIS Algorithm list
 
 * **postgisexecutesql** 
 
-* **randomextract** 
-
+* **randomextract** BUG!! see ['http://hub.qgis.org/issues/16069'] 
+ 
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 

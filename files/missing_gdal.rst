@@ -4,18 +4,18 @@ GDAL Algorithm list
 
 * **assignprojection** 
 
-* **buildvirtualraster** 
-
+* **buildvirtualraster** BUG!! see ['http://hub.qgis.org/issues/16123'] 
+ 
 * **clipvectorsbyextent** 
 
 * **clipvectorsbypolygon** 
 
-* **contour** 
-
+* **contour** algorithm works, problem with the test 
+ 
 * **convertformat** 
 
-* **dissolvepolygons** 
-
+* **dissolvepolygons** BUG!! see ['http://hub.qgis.org/issues/16122'] 
+ 
 * **executesql** 
 
 * **extractprojection** 
@@ -40,8 +40,6 @@ GDAL Algorithm list
 
 * **importvectorintopostgisdatabasenewconnection** 
 
-* **merge** 
-
 * **overviews** 
 
 * **pcttorgb** 
@@ -52,10 +50,10 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
-* **rasterize** 
-
-* **rasterize_over** 
-
+* **rasterize** BUG!! see ['http://hub.qgis.org/issues/16061'] 
+ 
+* **rasterize_over** BUG!! see ['http://hub.qgis.org/issues/16061'] 
+ 
 * **retile** 
 
 * **rgbtopct** 

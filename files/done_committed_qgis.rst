@@ -12,16 +12,6 @@ QGIS Algorithm list
 
   * yes 
 
-* **concavehull** 
-
- * test: 
-
-  * no 
-
- * ticket: 
-
-  * http://hub.qgis.org/issues/15985 
-
 * **convexhull** 
 
  * commit: 
@@ -103,16 +93,6 @@ QGIS Algorithm list
  * test: 
 
   * yes 
-
-* **randomextract** 
-
- * test: 
-
-  * no 
-
- * ticket: 
-
-  * http://hub.qgis.org/issues/16069 
 
 * **reprojectlayer** 
 
