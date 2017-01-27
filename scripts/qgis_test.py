@@ -204,10 +204,10 @@ for key in sorted(m_qgis.keys()):
         f.write('\n')
     elif key in d_qgis.keys():
         if 'ticket' in d_qgis[key]:
-            f.write('* **{}** BUG!! see {} \n '.format(key, d_qgis[key]['ticket']))
+            f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, d_gdal[key]['ticket']))
             f.write('\n')
         elif 'ticket' not in d_qgis[key]:
-            f.write('* **{}** algorithm works, problem with the test \n '.format(key))
+            f.write('* **{}**: -> algorithm works but problem with the test \n '.format(key))
             f.write('\n')
 
 f.close()
