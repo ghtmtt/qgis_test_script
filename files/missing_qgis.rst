@@ -14,7 +14,7 @@ QGIS Algorithm list
 
 * **checkvalidity** 
 
-* **concavehull**: -> **BUG!!** see ['http://hub.qgis.org/issues/15985'] 
+* **concavehull**: -> **BUG!!** see http://hub.qgis.org/issues/15985 
  
 * **convertgeometrytype** 
 
@@ -76,7 +76,7 @@ QGIS Algorithm list
 
 * **postgisexecutesql** 
 
-* **randomextract**: -> **BUG!!** see ['http://hub.qgis.org/issues/16069'] 
+* **randomextract**: -> **BUG!!** see http://hub.qgis.org/issues/16069 
  
 * **randomextractwithinsubsets** 
 

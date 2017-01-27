@@ -4,7 +4,7 @@ GDAL Algorithm list
 
 * **assignprojection** 
 
-* **buildvirtualraster**: -> **BUG!!** see ['http://hub.qgis.org/issues/16123'] 
+* **buildvirtualraster**: -> **BUG!!** see http://hub.qgis.org/issues/16123 
  
 * **clipvectorsbyextent** 
 
@@ -14,7 +14,7 @@ GDAL Algorithm list
  
 * **convertformat** 
 
-* **dissolvepolygons**: -> **BUG!!** see ['http://hub.qgis.org/issues/16122'] 
+* **dissolvepolygons**: -> **BUG!!** see http://hub.qgis.org/issues/16122 
  
 * **executesql** 
 
@@ -50,9 +50,9 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
-* **rasterize**: -> **BUG!!** see ['http://hub.qgis.org/issues/16061'] 
+* **rasterize**: -> **BUG!!** see http://hub.qgis.org/issues/16061 
  
-* **rasterize_over**: -> **BUG!!** see ['http://hub.qgis.org/issues/16061'] 
+* **rasterize_over**: -> **BUG!!** see http://hub.qgis.org/issues/16061 
  
 * **retile** 
 

@@ -213,8 +213,9 @@ for key in sorted(m_gdal.keys()):
         f.write('\n')
     elif key in d_gdal.keys():
         if 'ticket' in d_gdal[key]:
-            f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, d_gdal[key]['ticket']))
-            f.write('\n')
+            for t in d_gdal[key]['ticket']:
+                f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, t))
+                f.write('\n')
         if 'ticket' not in d_gdal[key]:
             f.write('* **{}**: -> algorithm works but problem with the test \n '.format(key))
             f.write('\n')
