@@ -76,10 +76,6 @@ m_qgis = {}
 for i in missing_qgis:
     m_qgis[i] = {}
 
-# write the bullet rst file of missing algorithms
-qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
-write_rst(qgis_missing_path, m_qgis, 'qgis')
-
 
 # fill each key with other empty dict and values
 for i in done_qgis:
@@ -150,65 +146,10 @@ d_qgis['randomextract']['ticket'] = ['http://hub.qgis.org/issues/16069']
 print(len(done_qgis))
 
 # write the final rst file
-#write_rst(qgis_path, d_qgis, 'qgis')
+write_rst(qgis_path, d_qgis, 'qgis')
 
-
-s = 'QGIS Algorithm list'
-h = '#' * len(s)
-
-f = open(qgis_path, 'w')
-
-f.write('{}\n{}\n{}\n\n'.format(h, s, h))
-
-
-for key, value in sorted(d_qgis.items()):
-    if d_qgis[key]['test'] == ['yes']:
-        f.write('* **{}** \n'.format(key))
-        f.write("\n")
-        for k, v in sorted(value.items()):
-            if k == 'commit':
-                f.write(' * {}: \n'.format(k))
-                f.write("\n")
-                for c in v:
-                    f.write('  * {}{} \n'.format(gh_link, c))
-                    f.write("\n")
-            else:
-                f.write(' * {}: \n'.format(k))
-                f.write("\n")
-                for i in v:
-                    f.write('  * {} \n'.format(i))
-                    f.write("\n")
-
-f.close()
-
-
-
-
-# write the bullet rst file of missing algorithms
-#qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
-#write_rst2(qgis_missing_path, d_qgis, m_qgis, 'qgis')
 
 
 # write the bullet rst file of missing algorithms
 qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
-#write_rst2(gdal_missing_path, d_gdal, m_gdal, 'gdal')
-
-
-f = open(qgis_missing_path, 'w')
-
-f.write('{}\n{}\n{}\n\n'.format(h, s, h))
-
-for key in sorted(m_qgis.keys()):
-    if key not in d_qgis.keys():
-        f.write('* **{}** \n'.format(key))
-        f.write('\n')
-    elif key in d_qgis.keys():
-        if 'ticket' in d_qgis[key]:
-            for t in d_qgis[key]['ticket']:
-                f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, t))
-                f.write('\n')
-        elif 'ticket' not in d_qgis[key]:
-            f.write('* **{}**: -> algorithm works but problem with the test \n '.format(key))
-            f.write('\n')
-
-f.close()
+write_rst2(qgis_missing_path, d_qgis, m_qgis, 'qgis')

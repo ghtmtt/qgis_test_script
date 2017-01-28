@@ -23,8 +23,9 @@ def write_rst(outfile_path, dict_test, provider):
 
 
     for key, value in sorted(dict_test.items()):
-        f.write('* **{}** \n'.format(key))
-        f.write("\n")
+        if dict_test[key]['test'] == ['yes']:
+            f.write('* **{}** \n'.format(key))
+            f.write("\n")
         for k, v in sorted(value.items()):
             if k == 'commit':
                 f.write(' * {}: \n'.format(k))

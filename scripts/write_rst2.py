@@ -2,7 +2,7 @@ def write_rst2(outfile_path, dict_test, dict_missing, provider):
     '''
     Function that writes a *rst* file from a dictionary.
     It is aimed to write a *rst* file for the MISSING TEST provider
-    
+
     Function loops and checks if in the missing dictionary are some algorithm
     also in the done dictionary and adds a defaul string if algorithm runs but
     test is not uploadable
@@ -31,13 +31,21 @@ def write_rst2(outfile_path, dict_test, dict_missing, provider):
     f.write('{}\n{}\n{}\n\n'.format(h, s, h))
 
     for key in sorted(dict_missing.keys()):
-        if key in sorted(dict_test.keys()):
+        if key not in sorted(dict_test.keys()):
             # if same key in both dictionary, add defaul string
-            f.write('* **{}** -> algorithm works, test not uploadable \n'.format(key))
-            f.write("\n")
-            # if not just write the algorithm name
-        else:
             f.write('* **{}** \n'.format(key))
             f.write("\n")
+        elif key in dict_test.keys():
+            if 'ticket' in dict_test[key]:
+                for t in dict_test[key]['ticket']:
+                    f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, t))
+                    f.write('\n')
+            if 'ticket' not in dict_test[key]:
+                f.write('* **{}** -> algorithm works, test not uploadable \n'.format(key))
+                f.write("\n")
+            # if not just write the algorithm name
+        # else:
+        #     f.write('* **{}** \n'.format(key))
+        #     f.write("\n")
 
     f.close()

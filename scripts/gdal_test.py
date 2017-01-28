@@ -157,38 +157,38 @@ d_gdal['buildvirtualraster']['ticket'] = ['http://hub.qgis.org/issues/16123']
 
 
 # write the final rst file
-#write_rst(gdal_path, d_gdal, 'gdal')
+write_rst(gdal_path, d_gdal, 'gdal')
 
 
-
-s = 'GDAL Algorithm list'
-h = '#' * len(s)
-# return s, h
-
-f = open(gdal_path, 'w')
-
-f.write('{}\n{}\n{}\n\n'.format(h, s, h))
-
-
-for key, value in sorted(d_gdal.items()):
-    if d_gdal[key]['test'] == ['yes']:
-        f.write('* **{}** \n'.format(key))
-        f.write("\n")
-        for k, v in sorted(value.items()):
-            if k == 'commit':
-                f.write(' * {}: \n'.format(k))
-                f.write("\n")
-                for c in v:
-                    f.write('  * {}{} \n'.format(gh_link, c))
-                    f.write("\n")
-            else:
-                f.write(' * {}: \n'.format(k))
-                f.write("\n")
-                for i in v:
-                    f.write('  * {} \n'.format(i))
-                    f.write("\n")
-
-f.close()
+#
+# s = 'GDAL Algorithm list'
+# h = '#' * len(s)
+# # return s, h
+#
+# f = open(gdal_path, 'w')
+#
+# f.write('{}\n{}\n{}\n\n'.format(h, s, h))
+#
+#
+# for key, value in sorted(d_gdal.items()):
+#     if d_gdal[key]['test'] == ['yes']:
+#         f.write('* **{}** \n'.format(key))
+#         f.write("\n")
+#         for k, v in sorted(value.items()):
+#             if k == 'commit':
+#                 f.write(' * {}: \n'.format(k))
+#                 f.write("\n")
+#                 for c in v:
+#                     f.write('  * {}{} \n'.format(gh_link, c))
+#                     f.write("\n")
+#             else:
+#                 f.write(' * {}: \n'.format(k))
+#                 f.write("\n")
+#                 for i in v:
+#                     f.write('  * {} \n'.format(i))
+#                     f.write("\n")
+#
+# f.close()
 
 
 
@@ -201,23 +201,26 @@ f.close()
 
 # write the bullet rst file of missing algorithms
 gdal_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_gdal.rst"
-#write_rst2(gdal_missing_path, d_gdal, m_gdal, 'gdal')
+write_rst2(gdal_missing_path, d_gdal, m_gdal, 'gdal')
 
-f = open(gdal_missing_path, 'w')
 
-f.write('{}\n{}\n{}\n\n'.format(h, s, h))
 
-for key in sorted(m_gdal.keys()):
-    if key not in d_gdal.keys():
-        f.write('* **{}** \n'.format(key))
-        f.write('\n')
-    elif key in d_gdal.keys():
-        if 'ticket' in d_gdal[key]:
-            for t in d_gdal[key]['ticket']:
-                f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, t))
-                f.write('\n')
-        if 'ticket' not in d_gdal[key]:
-            f.write('* **{}**: -> algorithm works but problem with the test \n '.format(key))
-            f.write('\n')
 
-f.close()
+# f = open(gdal_missing_path, 'w')
+#
+# f.write('{}\n{}\n{}\n\n'.format(h, s, h))
+#
+# for key in sorted(m_gdal.keys()):
+#     if key not in d_gdal.keys():
+#         f.write('* **{}** \n'.format(key))
+#         f.write('\n')
+#     elif key in d_gdal.keys():
+#         if 'ticket' in d_gdal[key]:
+#             for t in d_gdal[key]['ticket']:
+#                 f.write('* **{}**: -> **BUG!!** see {} \n '.format(key, t))
+#                 f.write('\n')
+#         if 'ticket' not in d_gdal[key]:
+#             f.write('* **{}**: -> algorithm works but problem with the test \n '.format(key))
+#             f.write('\n')
+#
+# f.close()
