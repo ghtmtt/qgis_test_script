@@ -26,6 +26,14 @@ GDAL Algorithm list
 
   * yes 
 
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16123 
+
 * **cliprasterbyextent** 
 
  * commit: 
@@ -82,6 +90,22 @@ GDAL Algorithm list
 
   * yes 
 
+ * note: 
+
+  * GML output conflicts with the test, algorithm works fine 
+
+ * test: 
+
+  * no 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16122 
+
 * **hillshade** 
 
  * commit: 
@@ -131,6 +155,22 @@ GDAL Algorithm list
  * test: 
 
   * yes 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16061 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16061 
 
 * **roughness** 
 

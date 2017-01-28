@@ -12,6 +12,14 @@ QGIS Algorithm list
 
   * yes 
 
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/15985 
+
 * **convexhull** 
 
  * commit: 
@@ -93,6 +101,14 @@ QGIS Algorithm list
  * test: 
 
   * yes 
+
+ * test: 
+
+  * no 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16069 
 
 * **reprojectlayer** 
 

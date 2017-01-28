@@ -10,8 +10,8 @@ GDAL Algorithm list
 
 * **clipvectorsbypolygon** 
 
-* **contour**: -> algorithm works but problem with the test 
- 
+* **contour** -> algorithm works, test not uploadable 
+
 * **convertformat** 
 
 * **dissolvepolygons**: -> **BUG!!** see http://hub.qgis.org/issues/16122 
