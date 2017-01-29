@@ -1,21 +1,15 @@
-###################
-GDAL Algorithm list
-###################
+###########################
+GDAL Missing Algorithm list
+###########################
 
 * **assignprojection** 
 
-* **buildvirtualraster**: -> **BUG!!** see http://hub.qgis.org/issues/16123 
- 
 * **clipvectorsbyextent** 
 
 * **clipvectorsbypolygon** 
 
-* **contour** -> algorithm works, test not uploadable 
-
 * **convertformat** 
 
-* **dissolvepolygons**: -> **BUG!!** see http://hub.qgis.org/issues/16122 
- 
 * **executesql** 
 
 * **extractprojection** 
@@ -50,10 +44,6 @@ GDAL Algorithm list
 
 * **rastercalculator** 
 
-* **rasterize**: -> **BUG!!** see http://hub.qgis.org/issues/16061 
- 
-* **rasterize_over**: -> **BUG!!** see http://hub.qgis.org/issues/16061 
- 
 * **retile** 
 
 * **rgbtopct** 

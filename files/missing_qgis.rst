@@ -1,6 +1,6 @@
-###################
-QGIS Algorithm list
-###################
+###########################
+QGIS Missing Algorithm list
+###########################
 
 * **addfieldtoattributestable** 
 
@@ -14,13 +14,9 @@ QGIS Algorithm list
 
 * **checkvalidity** 
 
-* **concavehull**: -> **BUG!!** see http://hub.qgis.org/issues/15985 
- 
 * **convertgeometrytype** 
 
 * **createconstantrasterlayer** 
-
-* **definecurrentprojection** 
 
 * **deleteduplicategeometries** 
 
@@ -76,8 +72,6 @@ QGIS Algorithm list
 
 * **postgisexecutesql** 
 
-* **randomextract**: -> **BUG!!** see http://hub.qgis.org/issues/16069 
- 
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 
