@@ -2,6 +2,9 @@
 GDAL Algorithm list
 ###################
 
+**16 tested algorithms**
+
+
 * **aspect** 
 
  * commit: 

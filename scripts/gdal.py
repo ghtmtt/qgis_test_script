@@ -157,4 +157,4 @@ gdal_done_path = "/home/matteo/lavori/qgis_test_script/files/done_gdal.rst"
 gdal_problem_path = "/home/matteo/lavori/qgis_test_script/files/problem_gdal.rst"
 gdal_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_gdal.rst"
 
-write_rst(gdal_done_path, gdal_problem_path, gdal_missing_path, d_gdal, missing_gdal, 'gdal')
+write_rst(gdal_done_path, gdal_problem_path, gdal_missing_path, d_gdal, missing_gdal, done_gdal, 'gdal')

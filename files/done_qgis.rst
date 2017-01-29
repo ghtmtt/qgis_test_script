@@ -2,6 +2,9 @@
 QGIS Algorithm list
 ###################
 
+**15 tested algorithms**
+
+
 * **adduniquevalueindexfield** 
 
  * commit: 

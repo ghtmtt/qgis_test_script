@@ -1,4 +1,4 @@
-def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, provider):
+def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, list_done, provider):
     '''
     done_path = final path for all the done and committed algorithms
     problem_path = file for all the algorithm that have issues (with running or test)
@@ -29,6 +29,9 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, pr
     f = open(done_path, 'w')
 
     f.write('{}\n{}\n{}\n\n'.format(h, s, h))
+    
+    f.write('**{} tested algorithms**\n'.format(len(list_done)))
+    f.write('\n\n')
 
 
     for key, value in sorted(dict_test.items()):
@@ -75,6 +78,5 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, pr
     for i in list_missing:
         ff.write('* **{}** \n'.format(i))
         ff.write('\n')
-
 
     ff.close()

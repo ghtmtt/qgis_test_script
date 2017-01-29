@@ -153,4 +153,4 @@ qgis_done_path = "/home/matteo/lavori/qgis_test_script/files/done_qgis.rst"
 qgis_problem_path = "/home/matteo/lavori/qgis_test_script/files/problem_qgis.rst"
 qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
 
-write_rst(qgis_done_path, qgis_problem_path, qgis_missing_path, d_qgis, missing_qgis, 'qgis')
+write_rst(qgis_done_path, qgis_problem_path, qgis_missing_path, d_qgis, missing_qgis, done_qgis, 'qgis')
