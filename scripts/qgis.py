@@ -1,20 +1,19 @@
-# QGIS Processing tests framework
+# GDAL Processing tests framework
 
 # import standard write rst function
 import processing
-import sys
 import yaml
+import sys
 
 sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 
-from write_rst import write_rst
-from write_rst2 import write_rst2
+# import the writing function
+from writerst import write_rst
 
-
-# output file
-qgis_path = "/home/matteo/lavori/qgis_test_script/files/done_committed_qgis.rst"
-# github path
-gh_link = 'https://github.com/qgis/QGIS/commit/'
+# yaml file from the repo, ALL THE TESTS MADE!
+f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/gdal_algorithm_tests.yaml')
+data_gdal = yaml.safe_load(f)
+f.close()
 
 # yaml file from the repo, ALL THE TESTS MADE!
 f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/qgis_algorithm_tests.yaml')
@@ -28,10 +27,8 @@ for k, v in data_qgis.items():
     for i in v:
         f_qgis.append(i['algorithm'][5:])
 
-# empty dictionary of tests
-d_qgis = {}
 
-# manually update the updated (and merged! tests))
+# fill manually all the algorithm tested, EVEN IF TEST FAILS!
 done_qgis = [
 'reprojectlayer',
 'variabledistancebuffer',
@@ -51,7 +48,12 @@ done_qgis = [
 'definecurrentprojection'
 ]
 
-
+# add some missing algorithm to the f_gdal list
+# e.g the algorithms that work but then the test fails
+# this mathing is important to have a clean missing list (missing_gdal)
+for i in done_qgis:
+    if i not in f_qgis:
+        f_qgis.append(i)
 
 
 # create list of missing tests to be done
@@ -62,27 +64,26 @@ qgis_algs = processing.algList.algs['qgis']
 all_qgis = []
 for k, v in qgis_algs.items():
     all_qgis.append(k[5:])
+    all_qgis.sort()
 
-# sort the list
-all_qgis.sort()
 
 
 # match the listo of done and all algorithms and create a list of missing one
+# the missing list is updated from the repo and from both the correctly tested
+# and the test that fails even if the algorithm works fine
 missing_qgis = list(set(all_qgis) ^ set(f_qgis))
 missing_qgis.sort()
 
-# create dictionary of missing alg and write rst file
 
-m_qgis = {}
-for i in missing_qgis:
-    m_qgis[i] = {}
-
-
+# create empty dictionary that will be filled with the algorithms tested
+d_qgis = {}
 # fill each key with other empty dict and values
-for i in done_qgis:
-    d_qgis[i] = {}
+for i in all_qgis:
+    d_qgis[i] = {'test':[]}
 
 
+
+# manually enter informations on tests made, fails, notes...
 # dict keys guide
 '''
 test = 'yes', 'no'
@@ -141,19 +142,15 @@ d_qgis['concavehull']['test'] = ['no']
 d_qgis['concavehull']['ticket'] = ['http://hub.qgis.org/issues/15985']
 
 d_qgis['randomextract']['test'] = ['no']
+d_qgis['randomextract']['note'] = ['output not uploadable for the test']
 d_qgis['randomextract']['ticket'] = ['http://hub.qgis.org/issues/16069']
 
 d_qgis['definecurrentprojection']['test'] = ['no']
 d_qgis['definecurrentprojection']['note'] = ['output not uploadable for the test']
 
 
-print(len(done_qgis))
-
-# write the final rst file
-write_rst(qgis_path, d_qgis, 'qgis')
-
-
-
-# write the bullet rst file of missing algorithms
+qgis_done_path = "/home/matteo/lavori/qgis_test_script/files/done_qgis.rst"
+qgis_problem_path = "/home/matteo/lavori/qgis_test_script/files/problem_qgis.rst"
 qgis_missing_path = "/home/matteo/lavori/qgis_test_script/files/missing_qgis.rst"
-write_rst2(qgis_missing_path, d_qgis, m_qgis, 'qgis')
+
+write_rst(qgis_done_path, qgis_problem_path, qgis_missing_path, d_qgis, missing_qgis, 'qgis')
