@@ -42,10 +42,24 @@ done_qgis = [
 'meancoordinates',
 'singlepartstomultipart',
 'zonalstatistics',
+'executesql',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
-'definecurrentprojection'
+'definecurrentprojection',
+'basicstatisticsfornumericfields',
+'basicstatisticsfortextfields',
+'importintopostgis',
+'importintospatialite',
+'postgisexecutesql',
+'randomselection',
+'randomselectionwithinsubsets',
+'selectbyattribute',
+'selectbyattributesum',
+'selectbyexpression',
+'selectbylocation',
+'setstyleforrasterlayer',
+'setstyleforvectorlayer'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -134,6 +148,8 @@ d_qgis['singlepartstomultipart']['commit'] = ['c25907010228c1c5594e949362beb539c
 d_qgis['zonalstatistics']['test'] = ['yes']
 d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
 
+d_qgis['executesql']['test'] = ['yes']
+d_qgis['executesql']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
 
 
 
@@ -147,6 +163,47 @@ d_qgis['randomextract']['ticket'] = ['http://hub.qgis.org/issues/16069']
 
 d_qgis['definecurrentprojection']['test'] = ['no']
 d_qgis['definecurrentprojection']['note'] = ['output not uploadable for the test']
+
+d_qgis['basicstatisticsfornumericfields']['test'] = ['no']
+d_qgis['basicstatisticsfornumericfields']['note'] = ['algorithm not in the toolbox, replaced by basicstatisticsforfields ']
+
+d_qgis['basicstatisticsfortextfields']['test'] = ['no']
+d_qgis['basicstatisticsfornumericfields']['note'] = ['algorithm not in the toolbox, replaced by basicstatisticsforfields ']
+
+d_qgis['importintopostgis']['test'] = ['no']
+d_qgis['importintopostgis']['note'] = ['output not uploadable for the test']
+
+d_qgis['importintospatialite']['test'] = ['no']
+d_qgis['importintospatialite']['note'] = ['output not uploadable for the test']
+
+d_qgis['postgisexecutesql']['test'] = ['no']
+d_qgis['postgisexecutesql']['note'] = ['output not uploadable for the test']
+
+d_qgis['randomselection']['test'] = ['no']
+d_qgis['randomselection']['note'] = ['output not uploadable for the test']
+
+d_qgis['randomselectionwithinsubsets']['test'] = ['no']
+d_qgis['randomselectionwithinsubsets']['note'] = ['output not uploadable for the test']
+
+d_qgis['selectbyattribute']['test'] = ['no']
+d_qgis['selectbyattribute']['note'] = ['output not uploadable for the test']
+
+d_qgis['selectbyattributesum']['test'] = ['no']
+d_qgis['selectbyattributesum']['note'] = ['output not uploadable for the test']
+
+d_qgis['selectbyexpression']['test'] = ['no']
+d_qgis['selectbyexpression']['note'] = ['output not uploadable for the test']
+
+d_qgis['selectbylocation']['test'] = ['no']
+d_qgis['selectbylocation']['note'] = ['output not uploadable for the test']
+
+d_qgis['setstyleforrasterlayer']['test'] = ['no']
+d_qgis['setstyleforrasterlayer']['note'] = ['output not uploadable for the test']
+
+d_qgis['setstyleforvectorlayer']['test'] = ['no']
+d_qgis['setstyleforvectorlayer']['note'] = ['output not uploadable for the test']
+
+
 
 
 qgis_done_path = "/home/matteo/lavori/qgis_test_script/files/done_qgis.rst"
