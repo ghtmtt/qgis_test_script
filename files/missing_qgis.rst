@@ -30,8 +30,6 @@ QGIS Missing Algorithm list
 
 * **fieldcalculator** 
 
-* **frequencyanalysis** 
-
 * **generatepointspixelcentroidsalongline** 
 
 * **generatepointspixelcentroidsinsidepolygons** 

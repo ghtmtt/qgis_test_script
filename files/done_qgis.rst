@@ -3,8 +3,8 @@ QGIS Algorithm list
 ###################
 
 **144 total algorithms**
-**29 test added**
-**115 algorithm to test**
+**30 test added**
+**114 algorithm to test**
 
 
 * **adduniquevalueindexfield** 
@@ -62,6 +62,10 @@ QGIS Algorithm list
  * commit: 
 
   * https://github.com/qgis/QGIS/commit/7958db29d116d0bfec462c155b3ffeb5e9f44e4e 
+
+ * note: 
+
+  * test with the optional field(s) always fails, but algorithm works, see ticket opened 
 
  * ticket: 
 

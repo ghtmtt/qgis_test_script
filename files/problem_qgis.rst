@@ -8,21 +8,9 @@ QGIS Algorithm with issues
 
   * algorithm not in the toolbox, replaced by basicstatisticsforfields  
 
- * test: 
-
-  * no 
-
 * **basicstatisticsfortextfields** algorithm or test not working!
 
- * test: 
-
-  * no 
-
 * **concavehull** algorithm or test not working!
-
- * test: 
-
-  * no 
 
  * ticket: 
 
@@ -34,9 +22,15 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
+* **frequencyanalysis** algorithm or test not working!
 
-  * no 
+ * note: 
+
+  * bug with the algorithm 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16133 
 
 * **importintopostgis** algorithm or test not working!
 
@@ -44,19 +38,11 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **importintospatialite** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
 * **postgisexecutesql** algorithm or test not working!
 
@@ -64,19 +50,11 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **randomextract** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
  * ticket: 
 
@@ -88,19 +66,11 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **randomselectionwithinsubsets** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
 * **selectbyattribute** algorithm or test not working!
 
@@ -108,19 +78,11 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **selectbyattributesum** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
 * **selectbyexpression** algorithm or test not working!
 
@@ -128,19 +90,11 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **selectbylocation** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
 * **setstyleforrasterlayer** algorithm or test not working!
 
@@ -148,17 +102,9 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
- * test: 
-
-  * no 
-
 * **setstyleforvectorlayer** algorithm or test not working!
 
  * note: 
 
   * output not uploadable for the test 
-
- * test: 
-
-  * no 
 
