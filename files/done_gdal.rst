@@ -2,7 +2,9 @@
 GDAL Algorithm list
 ###################
 
-**16 tested algorithms**
+**49 total algorithms**
+**16 test added**
+**33 algorithm to test**
 
 
 * **aspect** 
@@ -25,10 +27,6 @@ GDAL Algorithm list
 
   * with edges 
 
- * test: 
-
-  * yes 
-
 * **cliprasterbyextent** 
 
  * commit: 
@@ -42,10 +40,6 @@ GDAL Algorithm list
   * standard 
 
   * change NULL values 
-
- * test: 
-
-  * yes 
 
 * **cliprasterbymasklayer** 
 
@@ -65,10 +59,6 @@ GDAL Algorithm list
 
   * no cropping line 
 
- * test: 
-
-  * yes 
-
 * **colorrelief** 
 
  * commit: 
@@ -80,10 +70,6 @@ GDAL Algorithm list
   * standard 
 
   * with edges 
-
- * test: 
-
-  * yes 
 
 * **hillshade** 
 
@@ -101,10 +87,6 @@ GDAL Algorithm list
 
   * zevenbergen 
 
- * test: 
-
-  * yes 
-
 * **merge** 
 
  * commit: 
@@ -117,10 +99,6 @@ GDAL Algorithm list
 
   * separate into bands 
 
- * test: 
-
-  * yes 
-
 * **nearblack** 
 
  * commit: 
@@ -130,10 +108,6 @@ GDAL Algorithm list
  * parameter: 
 
   * standard 
-
- * test: 
-
-  * yes 
 
 * **roughness** 
 
@@ -146,10 +120,6 @@ GDAL Algorithm list
   * standard 
 
   * with edges 
-
- * test: 
-
-  * yes 
 
 * **slope** 
 
@@ -169,10 +139,6 @@ GDAL Algorithm list
 
   * percent instead of degree 
 
- * test: 
-
-  * yes 
-
 * **tpitopographicpositionindex** 
 
  * commit: 
@@ -185,10 +151,6 @@ GDAL Algorithm list
 
   * with edges 
 
- * test: 
-
-  * yes 
-
 * **triterrainruggednessindex** 
 
  * commit: 
@@ -200,8 +162,4 @@ GDAL Algorithm list
   * standard 
 
   * with edges 
-
- * test: 
-
-  * yes 
 

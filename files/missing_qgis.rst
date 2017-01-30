@@ -6,10 +6,6 @@ QGIS Missing Algorithm list
 
 * **advancedpythonfieldcalculator** 
 
-* **basicstatisticsfornumericfields** 
-
-* **basicstatisticsfortextfields** 
-
 * **buildvirtualvector** 
 
 * **checkvalidity** 
@@ -27,8 +23,6 @@ QGIS Missing Algorithm list
 * **distancetonearesthublinetohub** 
 
 * **distancetonearesthubpoints** 
-
-* **executesql** 
 
 * **explodelines** 
 
@@ -48,10 +42,6 @@ QGIS Missing Algorithm list
 
 * **hypsometriccurves** 
 
-* **importintopostgis** 
-
-* **importintospatialite** 
-
 * **joinattributesbylocation** 
 
 * **keepnbiggestparts** 
@@ -70,8 +60,6 @@ QGIS Missing Algorithm list
 
 * **polygonfromlayerextent** 
 
-* **postgisexecutesql** 
-
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 
@@ -83,10 +71,6 @@ QGIS Missing Algorithm list
 * **randompointsinsidepolygonsfixed** 
 
 * **randompointsinsidepolygonsvariable** 
-
-* **randomselection** 
-
-* **randomselectionwithinsubsets** 
 
 * **rasterlayerstatistics** 
 
@@ -100,21 +84,9 @@ QGIS Missing Algorithm list
 
 * **saveselectedfeatures** 
 
-* **selectbyattribute** 
-
-* **selectbyattributesum** 
-
-* **selectbyexpression** 
-
-* **selectbylocation** 
-
 * **serviceareafromlayer** 
 
 * **serviceareafrompoint** 
-
-* **setstyleforrasterlayer** 
-
-* **setstyleforvectorlayer** 
 
 * **shortestpathlayertopoint** 
 
