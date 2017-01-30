@@ -29,8 +29,10 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
     f = open(done_path, 'w')
 
     f.write('{}\n{}\n{}\n\n'.format(h, s, h))
-    
-    f.write('**{} tested algorithms**\n'.format(len(list_done)))
+
+    f.write('**{} total algorithms**\n'.format(len(dict_test.keys())))
+    f.write('**{} test added**\n'.format(len(list_done)))
+    f.write('**{} algorithm to test**\n'.format(len(dict_test.keys()) - len(list_done)))
     f.write('\n\n')
 
 
@@ -45,7 +47,7 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
                     for c in v:
                         f.write('  * {}{} \n'.format(gh_link, c))
                         f.write("\n")
-                else:
+                elif k != 'test':
                     f.write(' * {}: \n'.format(k))
                     f.write("\n")
                     for i in v:
