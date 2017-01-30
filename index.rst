@@ -11,5 +11,10 @@ Processing Test Provider List
    :maxdepth: 2
 
 
-  files/done_committed_qgis
-  files/done_committed_gdal
+  
+  files/done_qgis
+  files/problem_qgis
+  files/missing_qgis
+  files/done_gdal
+  files/problem_gdal
+  files/missing_gdal
