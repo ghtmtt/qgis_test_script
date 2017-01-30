@@ -56,8 +56,6 @@ QGIS Missing Algorithm list
 
 * **pointstopath** 
 
-* **polygonfromlayerextent** 
-
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 

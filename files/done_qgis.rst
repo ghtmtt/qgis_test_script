@@ -3,8 +3,10 @@ QGIS Algorithm list
 ###################
 
 **144 total algorithms**
-**30 test added**
-**114 algorithm to test**
+
+**31 test added**
+
+**113 algorithm to test**
 
 
 * **adduniquevalueindexfield** 
@@ -39,12 +41,6 @@ QGIS Algorithm list
 
   * https://github.com/qgis/QGIS/commit/590abf0a4409d612712635374462561cbad34340 
 
-* **executesql** 
-
- * commit: 
-
-  * https://github.com/qgis/QGIS/commit/8994877717bbb0b3beb86ee6f53926e777eadcc9 
-
 * **joinattributestable** 
 
  * commit: 
@@ -76,6 +72,12 @@ QGIS Algorithm list
  * commit: 
 
   * https://github.com/qgis/QGIS/commit/2c6649358af613f8861e2a9f5b910c11b04c9af4 
+
+* **polygonfromlayerextent** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/c187a2dde9330d3a13317d3b451c9e4cb86cce49 
 
 * **reprojectlayer** 
 

@@ -31,7 +31,9 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
     f.write('{}\n{}\n{}\n\n'.format(h, s, h))
 
     f.write('**{} total algorithms**\n'.format(len(dict_test.keys())))
+    f.write('\n')
     f.write('**{} test added**\n'.format(len(list_done)))
+    f.write('\n')
     f.write('**{} algorithm to test**\n'.format(len(dict_test.keys()) - len(list_done)))
     f.write('\n\n')
 

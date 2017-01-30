@@ -22,6 +22,12 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
+* **executesql** algorithm or test not working!
+
+ * note: 
+
+  * algorithm works nice, but test fails 
+
 * **frequencyanalysis** algorithm or test not working!
 
  * note: 

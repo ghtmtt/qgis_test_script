@@ -42,7 +42,7 @@ done_qgis = [
 'meancoordinates',
 'singlepartstomultipart',
 'zonalstatistics',
-'executesql',
+'polygonfromlayerextent',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
@@ -60,7 +60,8 @@ done_qgis = [
 'selectbylocation',
 'setstyleforrasterlayer',
 'setstyleforvectorlayer',
-'frequencyanalysis'
+'frequencyanalysis',
+'executesql'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -150,8 +151,8 @@ d_qgis['singlepartstomultipart']['commit'] = ['c25907010228c1c5594e949362beb539c
 d_qgis['zonalstatistics']['test'] = ['yes']
 d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
 
-d_qgis['executesql']['test'] = ['yes']
-d_qgis['executesql']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
+d_qgis['polygonfromlayerextent']['test'] = ['yes']
+d_qgis['polygonfromlayerextent']['commit'] = ['c187a2dde9330d3a13317d3b451c9e4cb86cce49']
 
 
 
@@ -208,6 +209,10 @@ d_qgis['setstyleforvectorlayer']['note'] = ['output not uploadable for the test'
 d_qgis['frequencyanalysis']['test'] = ['no']
 d_qgis['frequencyanalysis']['note'] = ['bug with the algorithm']
 d_qgis['frequencyanalysis']['ticket'] = ['http://hub.qgis.org/issues/16133']
+
+d_qgis['executesql']['test'] = ['no']
+d_qgis['executesql']['note'] = ['algorithm works nice, but test fails']
+
 
 
 
