@@ -59,7 +59,8 @@ done_qgis = [
 'selectbyexpression',
 'selectbylocation',
 'setstyleforrasterlayer',
-'setstyleforvectorlayer'
+'setstyleforvectorlayer',
+'frequencyanalysis'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -140,6 +141,7 @@ d_qgis['pointsalonglines']['commit'] = ['2c6649358af613f8861e2a9f5b910c11b04c9af
 
 d_qgis['meancoordinates']['test'] = ['yes']
 d_qgis['meancoordinates']['commit'] = ['7958db29d116d0bfec462c155b3ffeb5e9f44e4e']
+d_qgis['meancoordinates']['note'] = ['test with the optional field(s) always fails, but algorithm works, see ticket opened']
 d_qgis['meancoordinates']['ticket'] = ['http://hub.qgis.org/issues/16066']
 
 d_qgis['singlepartstomultipart']['test'] = ['yes']
@@ -202,6 +204,12 @@ d_qgis['setstyleforrasterlayer']['note'] = ['output not uploadable for the test'
 
 d_qgis['setstyleforvectorlayer']['test'] = ['no']
 d_qgis['setstyleforvectorlayer']['note'] = ['output not uploadable for the test']
+
+d_qgis['frequencyanalysis']['test'] = ['no']
+d_qgis['frequencyanalysis']['note'] = ['bug with the algorithm']
+d_qgis['frequencyanalysis']['ticket'] = ['http://hub.qgis.org/issues/16133']
+
+
 
 
 

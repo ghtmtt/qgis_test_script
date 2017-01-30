@@ -65,11 +65,12 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
             fproblem.write('* **{}** algorithm or test not working!\n'.format(key))
             fproblem.write("\n")
             for k, v in sorted(value.items()):
-                fproblem.write(' * {}: \n'.format(k))
-                fproblem.write("\n")
-                for i in v:
-                    fproblem.write('  * {} \n'.format(i))
+                if k != 'test':
+                    fproblem.write(' * {}: \n'.format(k))
                     fproblem.write("\n")
+                    for i in v:
+                        fproblem.write('  * {} \n'.format(i))
+                        fproblem.write("\n")
 
     fproblem.close()
 
