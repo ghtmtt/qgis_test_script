@@ -43,6 +43,9 @@ done_qgis = [
 'singlepartstomultipart',
 'zonalstatistics',
 'polygonfromlayerextent',
+'voronoipolygons',
+'randompointsinlayerbounds',
+'randompointsinextent',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
@@ -61,7 +64,8 @@ done_qgis = [
 'setstyleforrasterlayer',
 'setstyleforvectorlayer',
 'frequencyanalysis',
-'executesql'
+'executesql',
+'statisticsbycategories'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -154,6 +158,19 @@ d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9
 d_qgis['polygonfromlayerextent']['test'] = ['yes']
 d_qgis['polygonfromlayerextent']['commit'] = ['c187a2dde9330d3a13317d3b451c9e4cb86cce49']
 
+d_qgis['voronoipolygons']['test'] = ['yes']
+d_qgis['voronoipolygons']['parameter'] = ['standard', 'with buffer']
+d_qgis['voronoipolygons']['parameter'] = ['6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
+
+d_qgis['randompointsinlayerbounds']['test'] = ['yes']
+d_qgis['randompointsinlayerbounds']['parameter'] = ['standard', 'with buffer']
+d_qgis['randompointsinlayerbounds']['commit'] = ['6d603891cfac89a653501b6d3c7b55ea0c2d0bac']
+
+d_qgis['randompointsinextent']['test'] = ['yes']
+d_qgis['randompointsinextent']['parameter'] = ['standard']
+d_qgis['randompointsinextent']['test'] = ['7c463fa01977201345eb95946a1baebf36ff9b07']
+
+
 
 
 ## TEST RUN BUT NOT UPLOADABLE
@@ -171,7 +188,7 @@ d_qgis['basicstatisticsfornumericfields']['test'] = ['no']
 d_qgis['basicstatisticsfornumericfields']['note'] = ['algorithm not in the toolbox, replaced by basicstatisticsforfields ']
 
 d_qgis['basicstatisticsfortextfields']['test'] = ['no']
-d_qgis['basicstatisticsfornumericfields']['note'] = ['algorithm not in the toolbox, replaced by basicstatisticsforfields ']
+d_qgis['basicstatisticsfortextfields']['note'] = ['algorithm not in the toolbox, replaced by basicstatisticsforfields ']
 
 d_qgis['importintopostgis']['test'] = ['no']
 d_qgis['importintopostgis']['note'] = ['output not uploadable for the test']
@@ -213,6 +230,9 @@ d_qgis['frequencyanalysis']['ticket'] = ['http://hub.qgis.org/issues/16133']
 d_qgis['executesql']['test'] = ['no']
 d_qgis['executesql']['note'] = ['algorithm works nice, but test fails']
 
+d_qgis['statisticsbycategories']['test'] = ['no']
+d_qgis['statisticsbycategories']['note'] = ['could be related to the table output, as for frequency analysis']
+d_qgis['statisticsbycategories']['ticket'] = ['http://hub.qgis.org/issues/16133']
 
 
 

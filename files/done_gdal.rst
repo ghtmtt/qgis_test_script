@@ -4,9 +4,9 @@ GDAL Algorithm list
 
 **49 total algorithms**
 
-**16 test added**
+**17 test added**
 
-**33 algorithm to test**
+**32 algorithm to test**
 
 
 * **aspect** 

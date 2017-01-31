@@ -2,11 +2,11 @@
 QGIS Algorithm list
 ###################
 
-**144 total algorithms**
+**145 total algorithms**
 
-**31 test added**
+**35 test added**
 
-**113 algorithm to test**
+**110 algorithm to test**
 
 
 * **adduniquevalueindexfield** 
@@ -79,6 +79,18 @@ QGIS Algorithm list
 
   * https://github.com/qgis/QGIS/commit/c187a2dde9330d3a13317d3b451c9e4cb86cce49 
 
+* **randompointsinlayerbounds** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/6d603891cfac89a653501b6d3c7b55ea0c2d0bac 
+
+ * parameter: 
+
+  * standard 
+
+  * with buffer 
+
 * **reprojectlayer** 
 
  * commit: 
@@ -102,6 +114,14 @@ QGIS Algorithm list
   * standard 
 
   * dissolve 
+
+* **voronoipolygons** 
+
+ * parameter: 
+
+  * 6cae0550d593f77cb9bffb07955c9864b44274cd 
+
+  * 0e1800f024696d4e14f8ece0454c8da34c018c35 
 
 * **zonalstatistics** 
 

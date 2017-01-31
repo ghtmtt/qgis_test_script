@@ -20,6 +20,12 @@ GDAL Algorithm with issues
 
   * http://hub.qgis.org/issues/16122 
 
+* **executesql** algorithm or test not working!
+
+ * note: 
+
+  * algorithms NOT working if output in GML 
+
 * **rasterize** algorithm or test not working!
 
  * ticket: 

@@ -56,13 +56,11 @@ QGIS Missing Algorithm list
 
 * **pointstopath** 
 
+* **polygonize** 
+
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 
-
-* **randompointsinextent** 
-
-* **randompointsinlayerbounds** 
 
 * **randompointsinsidepolygonsfixed** 
 
@@ -96,8 +94,6 @@ QGIS Missing Algorithm list
 
 * **splitvectorlayer** 
 
-* **statisticsbycategories** 
-
 * **symmetricaldifference** 
 
 * **texttofloat** 
@@ -107,8 +103,6 @@ QGIS Missing Algorithm list
 * **vectorgridlines** 
 
 * **vectorgridpolygons** 
-
-* **voronoipolygons** 
 
 * **zonalstatisticsqgis** 
 

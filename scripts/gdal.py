@@ -42,7 +42,8 @@ done_gdal = [
 'rasterize_over',
 'contour',
 'dissolvepolygons',
-'buildvirtualraster'
+'buildvirtualraster',
+'executesql'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -135,6 +136,9 @@ d_gdal['merge']['test'] = ['yes']
 d_gdal['merge']['parameter'] = ['standard', 'separate into bands']
 d_gdal['merge']['commit'] = ['765149466da5602b78101d0ef0395243fcaa001c']
 
+
+
+
 ## no tests but ticket opened
 d_gdal['rasterize']['test'] = ['no']
 d_gdal['rasterize']['ticket'] = ['http://hub.qgis.org/issues/16061']
@@ -150,6 +154,9 @@ d_gdal['dissolvepolygons']['ticket'] = ['http://hub.qgis.org/issues/16122']
 
 d_gdal['buildvirtualraster']['test'] = ['no']
 d_gdal['buildvirtualraster']['ticket'] = ['http://hub.qgis.org/issues/16123']
+
+d_gdal['executesql']['test'] = ['no']
+d_gdal['executesql']['note'] = ['algorithms NOT working if output in GML']
 
 
 

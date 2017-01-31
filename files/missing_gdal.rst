@@ -10,8 +10,6 @@ GDAL Missing Algorithm list
 
 * **convertformat** 
 
-* **executesql** 
-
 * **extractprojection** 
 
 * **fillnodata** 

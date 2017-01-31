@@ -10,6 +10,10 @@ QGIS Algorithm with issues
 
 * **basicstatisticsfortextfields** algorithm or test not working!
 
+ * note: 
+
+  * algorithm not in the toolbox, replaced by basicstatisticsforfields  
+
 * **concavehull** algorithm or test not working!
 
  * ticket: 
@@ -113,4 +117,14 @@ QGIS Algorithm with issues
  * note: 
 
   * output not uploadable for the test 
+
+* **statisticsbycategories** algorithm or test not working!
+
+ * note: 
+
+  * could be related to the table output, as for frequency analysis 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16133 
 
