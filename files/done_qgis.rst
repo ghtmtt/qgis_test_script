@@ -4,7 +4,7 @@ QGIS Algorithm list
 
 **145 total algorithms**
 
-**35 test added**
+**35 test added**, **14** correctly done, **20** algorithm with issues
 
 **110 algorithm to test**
 

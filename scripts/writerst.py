@@ -25,6 +25,15 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
         hh = '#' * len(ss)
         sss = 'GDAL Missing Algorithm list'
         hhh = '#' * len(sss)
+        
+        
+    done_right = []
+    done_wrong = []
+    for key, value in sorted(dict_test.items()):
+        if dict_test[key]['test'] == ['yes']:
+            done_right.append(key)
+        if dict_test[key]['test'] == ['no']:
+            done_wrong.append(key)
 
     f = open(done_path, 'w')
 
@@ -32,7 +41,7 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
 
     f.write('**{} total algorithms**\n'.format(len(dict_test.keys())))
     f.write('\n')
-    f.write('**{} test added**\n'.format(len(list_done)))
+    f.write('**{} test added**, **{}** correctly done, **{}** algorithm with issues\n'.format(len(list_done), len(done_right), len(done_wrong)))
     f.write('\n')
     f.write('**{} algorithm to test**\n'.format(len(dict_test.keys()) - len(list_done)))
     f.write('\n\n')
