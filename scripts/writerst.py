@@ -32,7 +32,7 @@ def write_rst(done_path, problem_path, missing_path, dict_test, list_missing, li
     for key, value in sorted(dict_test.items()):
         if dict_test[key]['test'] == ['yes']:
             done_right.append(key)
-        if dict_test[key]['test'] == ['no']:
+        elif dict_test[key]['test'] == ['no']:
             done_wrong.append(key)
 
     f = open(done_path, 'w')
