@@ -28,9 +28,13 @@ QGIS Algorithm with issues
 
 * **executesql** algorithm or test not working!
 
+ * commit: 
+
+  * 83a24884f9b77df7236e77f4c0ba798d91b81169 
+
  * note: 
 
-  * algorithm works nice, but test fails 
+  * algorithm works nice, but test fails. Thanks to the test, outputname fixed 
 
 * **frequencyanalysis** algorithm or test not working!
 
@@ -69,6 +73,22 @@ QGIS Algorithm with issues
  * ticket: 
 
   * http://hub.qgis.org/issues/16069 
+
+* **randompointsinlayerbounds** algorithm or test not working!
+
+ * commit: 
+
+  * a6439cb48f2c69dda848c72e4e8b7faef54bc2a6 
+
+ * note: 
+
+  * random test point created in the test HAVE TO be different from source layer. Tricky test to upload 
+
+ * parameter: 
+
+  * standard 
+
+  * with buffer 
 
 * **randomselection** algorithm or test not working!
 

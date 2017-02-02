@@ -44,8 +44,6 @@ done_qgis = [
 'zonalstatistics',
 'polygonfromlayerextent',
 'voronoipolygons',
-'randompointsinlayerbounds',
-'randompointsinextent',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
@@ -65,7 +63,9 @@ done_qgis = [
 'setstyleforvectorlayer',
 'frequencyanalysis',
 'executesql',
-'statisticsbycategories'
+'statisticsbycategories',
+'randompointsinlayerbounds',
+'randompointsinextent',
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -156,20 +156,11 @@ d_qgis['zonalstatistics']['test'] = ['yes']
 d_qgis['zonalstatistics']['commit'] = ['8994877717bbb0b3beb86ee6f53926e777eadcc9']
 
 d_qgis['polygonfromlayerextent']['test'] = ['yes']
-d_qgis['polygonfromlayerextent']['commit'] = ['c187a2dde9330d3a13317d3b451c9e4cb86cce49']
+d_qgis['polygonfromlayerextent']['commit'] = ['410fe1d58ecdf73008e30935bde9ad89634cc8ed', 'c187a2dde9330d3a13317d3b451c9e4cb86cce49']
 
 d_qgis['voronoipolygons']['test'] = ['yes']
 d_qgis['voronoipolygons']['parameter'] = ['standard', 'with buffer']
-d_qgis['voronoipolygons']['parameter'] = ['6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
-
-d_qgis['randompointsinlayerbounds']['test'] = ['yes']
-d_qgis['randompointsinlayerbounds']['parameter'] = ['standard', 'with buffer']
-d_qgis['randompointsinlayerbounds']['commit'] = ['6d603891cfac89a653501b6d3c7b55ea0c2d0bac']
-
-d_qgis['randompointsinextent']['test'] = ['yes']
-d_qgis['randompointsinextent']['parameter'] = ['standard']
-d_qgis['randompointsinextent']['test'] = ['7c463fa01977201345eb95946a1baebf36ff9b07']
-
+d_qgis['voronoipolygons']['parameter'] = ['e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6', '6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
 
 
 
@@ -233,6 +224,17 @@ d_qgis['executesql']['note'] = ['algorithm works nice, but test fails']
 d_qgis['statisticsbycategories']['test'] = ['no']
 d_qgis['statisticsbycategories']['note'] = ['could be related to the table output, as for frequency analysis']
 d_qgis['statisticsbycategories']['ticket'] = ['http://hub.qgis.org/issues/16133']
+
+d_qgis['randompointsinlayerbounds']['test'] = ['no']
+d_qgis['randompointsinlayerbounds']['parameter'] = ['standard', 'with buffer']
+d_qgis['randompointsinlayerbounds']['commit'] = ['a6439cb48f2c69dda848c72e4e8b7faef54bc2a6']
+d_qgis['randompointsinlayerbounds']['note'] = ['random test point created in the test HAVE TO be different from source layer. Tricky test to upload']
+
+d_qgis['randompointsinextent']['test'] = ['no']
+d_qgis['randompointsinextent']['parameter'] = ['standard']
+d_qgis['randompointsinextent']['test'] = ['a6439cb48f2c69dda848c72e4e8b7faef54bc2a6']
+d_qgis['randompointsinextent']['note'] = ['random test point created in the test HAVE TO be different from source layer. Tricky test to upload']
+
 
 
 

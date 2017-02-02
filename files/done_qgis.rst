@@ -77,19 +77,9 @@ QGIS Algorithm list
 
  * commit: 
 
+  * https://github.com/qgis/QGIS/commit/410fe1d58ecdf73008e30935bde9ad89634cc8ed 
+
   * https://github.com/qgis/QGIS/commit/c187a2dde9330d3a13317d3b451c9e4cb86cce49 
-
-* **randompointsinlayerbounds** 
-
- * commit: 
-
-  * https://github.com/qgis/QGIS/commit/6d603891cfac89a653501b6d3c7b55ea0c2d0bac 
-
- * parameter: 
-
-  * standard 
-
-  * with buffer 
 
 * **reprojectlayer** 
 
@@ -118,6 +108,8 @@ QGIS Algorithm list
 * **voronoipolygons** 
 
  * parameter: 
+
+  * e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6 
 
   * 6cae0550d593f77cb9bffb07955c9864b44274cd 
 
