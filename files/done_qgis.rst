@@ -107,13 +107,19 @@ QGIS Algorithm list
 
 * **voronoipolygons** 
 
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6 
+
+  * https://github.com/qgis/QGIS/commit/6cae0550d593f77cb9bffb07955c9864b44274cd 
+
+  * https://github.com/qgis/QGIS/commit/0e1800f024696d4e14f8ece0454c8da34c018c35 
+
  * parameter: 
 
-  * e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6 
+  * standard 
 
-  * 6cae0550d593f77cb9bffb07955c9864b44274cd 
-
-  * 0e1800f024696d4e14f8ece0454c8da34c018c35 
+  * with buffer 
 
 * **zonalstatistics** 
 

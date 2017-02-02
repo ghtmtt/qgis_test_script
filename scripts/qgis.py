@@ -160,7 +160,7 @@ d_qgis['polygonfromlayerextent']['commit'] = ['410fe1d58ecdf73008e30935bde9ad896
 
 d_qgis['voronoipolygons']['test'] = ['yes']
 d_qgis['voronoipolygons']['parameter'] = ['standard', 'with buffer']
-d_qgis['voronoipolygons']['parameter'] = ['e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6', '6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
+d_qgis['voronoipolygons']['commit'] = ['e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6', '6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
 
 
 
@@ -219,7 +219,10 @@ d_qgis['frequencyanalysis']['note'] = ['bug with the algorithm']
 d_qgis['frequencyanalysis']['ticket'] = ['http://hub.qgis.org/issues/16133']
 
 d_qgis['executesql']['test'] = ['no']
-d_qgis['executesql']['note'] = ['algorithm works nice, but test fails']
+d_qgis['executesql']['note'] = ['algorithm works nice, but test fails. Thanks to the test, outputname fixed']
+d_qgis['executesql']['commit'] = ['83a24884f9b77df7236e77f4c0ba798d91b81169']
+
+
 
 d_qgis['statisticsbycategories']['test'] = ['no']
 d_qgis['statisticsbycategories']['note'] = ['could be related to the table output, as for frequency analysis']
