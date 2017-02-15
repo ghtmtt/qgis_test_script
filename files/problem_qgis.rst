@@ -34,7 +34,7 @@ QGIS Algorithm with issues
 
  * note: 
 
-  * algorithm works nice, but test fails. Thanks to the test, outputname fixed 
+  * algorithm works nice, but test fails. Thanks to the test, outputname fixed. Anyway, a commit has been made to change the output name of the algorithm 
 
 * **frequencyanalysis** algorithm or test not working!
 

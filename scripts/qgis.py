@@ -219,7 +219,7 @@ d_qgis['frequencyanalysis']['note'] = ['bug with the algorithm']
 d_qgis['frequencyanalysis']['ticket'] = ['http://hub.qgis.org/issues/16133']
 
 d_qgis['executesql']['test'] = ['no']
-d_qgis['executesql']['note'] = ['algorithm works nice, but test fails. Thanks to the test, outputname fixed']
+d_qgis['executesql']['note'] = ['algorithm works nice, but test fails. Thanks to the test, outputname fixed. Anyway, a commit has been made to change the output name of the algorithm']
 d_qgis['executesql']['commit'] = ['83a24884f9b77df7236e77f4c0ba798d91b81169']
 
 
