@@ -4,9 +4,9 @@ GDAL Algorithm list
 
 **49 total algorithms**
 
-**17 test added**, **11** correctly done, **6** algorithm with issues
+**35 test added**, **17** correctly done, **18** algorithm with issues
 
-**32 algorithm to test**
+**14 algorithm to test**
 
 
 * **aspect** 
@@ -73,6 +73,46 @@ GDAL Algorithm list
 
   * with edges 
 
+* **gridaverage** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/641d287e72fec5774bd2fe84a6fef7d94e6e717b 
+
+ * parameter: 
+
+  * standard values adjusted 
+
+* **griddatametrics** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/294acffdae630763de41141f1e7ee5220e034783 
+
+ * parameter: 
+
+  * standard values adjusted 
+
+* **gridinvdist** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/5480177c3c1b466be77c9ce93367d53af7d2398f 
+
+ * parameter: 
+
+  * standard values 
+
+* **gridnearestneighbor** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/7dfff4d42124aa50902e62263c33572fd083f69c 
+
+ * parameter: 
+
+  * standard values adjusted 
+
 * **hillshade** 
 
  * commit: 
@@ -106,6 +146,26 @@ GDAL Algorithm list
  * commit: 
 
   * https://github.com/qgis/QGIS/commit/1f645c19968603a443839a67dd2b7e9e526f2c76 
+
+ * parameter: 
+
+  * standard 
+
+* **proximity** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/1ada8e1a6c6c64524959bf06aa0a490ae777fbba 
+
+ * parameter: 
+
+  * standard 
+
+* **rastercalculator** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/375c115beb7c7c8c7144aa76e578a623cebe17b1 
 
  * parameter: 
 

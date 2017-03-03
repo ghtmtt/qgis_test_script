@@ -6,6 +6,8 @@ QGIS Missing Algorithm list
 
 * **advancedpythonfieldcalculator** 
 
+* **barplot** 
+
 * **buildvirtualvector** 
 
 * **checkvalidity** 
@@ -23,6 +25,8 @@ QGIS Missing Algorithm list
 * **distancetonearesthublinetohub** 
 
 * **distancetonearesthubpoints** 
+
+* **eliminateselectedpolygons** 
 
 * **explodelines** 
 
@@ -46,6 +50,8 @@ QGIS Missing Algorithm list
 
 * **listuniquevalues** 
 
+* **meanandstandarddeviationplot** 
+
 * **mergevectorlayers** 
 
 * **nearestneighbouranalysis** 
@@ -56,6 +62,8 @@ QGIS Missing Algorithm list
 
 * **pointstopath** 
 
+* **polarplot** 
+
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 
@@ -63,6 +71,8 @@ QGIS Missing Algorithm list
 * **randompointsinsidepolygonsfixed** 
 
 * **randompointsinsidepolygonsvariable** 
+
+* **rasterlayerhistogram** 
 
 * **rasterlayerstatistics** 
 
@@ -101,6 +111,10 @@ QGIS Missing Algorithm list
 * **vectorgridlines** 
 
 * **vectorgridpolygons** 
+
+* **vectorlayerhistogram** 
+
+* **vectorlayerscatterplot** 
 
 * **zonalstatisticsqgis** 
 

@@ -37,13 +37,31 @@ done_gdal = [
 'tpitopographicpositionindex',
 'colorrelief',
 'merge',
+'proximity',
+'rastercalculator',
+'gridinvdist',
+'griddatametrics',
+'gridaverage',
+'gridnearestneighbor',
 ### test not made but ticket opened
 'rasterize',
 'rasterize_over',
 'contour',
 'dissolvepolygons',
 'buildvirtualraster',
-'executesql'
+'executesql',
+'warpreproject',
+'translate',
+'clipvectorsbyextent',
+'clipvectorsbypolygon',
+'convertformat',
+'assignprojection',
+'extractprojection',
+'importvectorintopostgisdatabaseavailableconnections',
+'importvectorintopostgisdatabasenewconnection',
+'importlayertableasgeometrylesstableintopostgresqldatabase',
+'gdal2xyz',
+'polygonize'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -136,6 +154,31 @@ d_gdal['merge']['test'] = ['yes']
 d_gdal['merge']['parameter'] = ['standard', 'separate into bands']
 d_gdal['merge']['commit'] = ['765149466da5602b78101d0ef0395243fcaa001c']
 
+d_gdal['proximity']['test'] = ['yes']
+d_gdal['proximity']['parameter'] = ['standard']
+d_gdal['proximity']['commit'] = ['1ada8e1a6c6c64524959bf06aa0a490ae777fbba']
+
+d_gdal['rastercalculator']['test'] = ['yes']
+d_gdal['rastercalculator']['parameter'] = ['standard']
+d_gdal['rastercalculator']['commit'] = ['375c115beb7c7c8c7144aa76e578a623cebe17b1']
+
+d_gdal['gridinvdist']['test'] = ['yes']
+d_gdal['gridinvdist']['parameter'] = ['standard values']
+d_gdal['gridinvdist']['commit'] = ['5480177c3c1b466be77c9ce93367d53af7d2398f']
+
+d_gdal['griddatametrics']['test'] = ['yes']
+d_gdal['griddatametrics']['parameter'] = ['standard values adjusted']
+d_gdal['griddatametrics']['commit'] = ['294acffdae630763de41141f1e7ee5220e034783']
+
+d_gdal['gridaverage']['test'] = ['yes']
+d_gdal['gridaverage']['parameter'] = ['standard values adjusted']
+d_gdal['gridaverage']['commit'] = ['641d287e72fec5774bd2fe84a6fef7d94e6e717b']
+
+d_gdal['gridnearestneighbor']['test'] = ['yes']
+d_gdal['gridnearestneighbor']['parameter'] = ['standard values adjusted']
+d_gdal['gridnearestneighbor']['commit'] = ['7dfff4d42124aa50902e62263c33572fd083f69c']
+
+
 
 
 
@@ -157,6 +200,45 @@ d_gdal['buildvirtualraster']['ticket'] = ['http://hub.qgis.org/issues/16123']
 
 d_gdal['executesql']['test'] = ['no']
 d_gdal['executesql']['note'] = ['algorithms NOT working if output in GML']
+
+d_gdal['warpreproject']['test'] = ['no']
+d_gdal['warpreproject']['note'] = ['algorithm cannot run and reproject layers']
+
+d_gdal['translate']['test'] = ['no']
+d_gdal['translate']['note'] = ['cannot open the output']
+d_gdal['translate']['ticket'] = ['http://hub.qgis.org/issues/16276']
+
+d_gdal['clipvectorsbyextent']['test'] = ['no']
+d_gdal['clipvectorsbyextent']['note'] = ['fails to open the output with the given drivers']
+d_gdal['clipvectorsbyextent']['ticket'] = ['http://hub.qgis.org/issues/16277']
+
+d_gdal['clipvectorsbypolygon']['test'] = ['no']
+d_gdal['clipvectorsbypolygon']['note'] = ['fails to open the output with the given drivers']
+d_gdal['clipvectorsbypolygon']['ticket'] = ['http://hub.qgis.org/issues/16277']
+
+d_gdal['convertformat']['test'] = ['no']
+d_gdal['convertformat']['note'] = ['mail at qgis dev, waiting']
+
+d_gdal['assignprojection']['test'] = ['no']
+d_gdal['assignprojection']['note'] = ['algorithm is not doing anything, mail at qgis dev, waiting']
+
+d_gdal['extractprojection']['test'] = ['no']
+d_gdal['extractprojection']['note'] = ['algorithm is not doing anything, mail at qgis dev, waiting']
+
+d_gdal['importvectorintopostgisdatabaseavailableconnections']['test'] = ['no']
+d_gdal['importvectorintopostgisdatabaseavailableconnections']['note'] = ['works, but output not uploadable for the test']
+
+d_gdal['importvectorintopostgisdatabasenewconnection']['test'] = ['no']
+d_gdal['importvectorintopostgisdatabasenewconnection']['note'] = ['not working and output not uploadable for the test']
+
+d_gdal['importlayertableasgeometrylesstableintopostgresqldatabase']['test'] = ['no']
+d_gdal['importlayertableasgeometrylesstableintopostgresqldatabase']['note'] = ['not working and output not uploadable for the test']
+
+d_gdal['gdal2xyz']['test'] = ['no']
+d_gdal['gdal2xyz']['note'] = ['seems working but dbf in output not suitable for the test']
+
+d_gdal['polygonize']['test'] = ['no']
+d_gdal['polygonize']['note'] = ['works also for GML output, but test fails due to CRS, also Alex made the test, no more in the code https://github.com/qgis/QGIS/commit/159fda68f2e3ac0c557a3b2e166dc24f95ad83ed#diff-21dd2d61eb16fd109e496b2a91abe493']
 
 
 

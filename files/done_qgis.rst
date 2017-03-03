@@ -2,11 +2,11 @@
 QGIS Algorithm list
 ###################
 
-**147 total algorithms**
+**154 total algorithms**
 
 **35 test added**, **14** correctly done, **20** algorithm with issues
 
-**112 algorithm to test**
+**119 algorithm to test**
 
 
 * **adduniquevalueindexfield** 
@@ -77,9 +77,9 @@ QGIS Algorithm list
 
  * commit: 
 
-  * https://github.com/qgis/QGIS/commit/fb82721e5917cabb412e93bb0175c069be3da4ac 
+  * https://github.com/qgis/QGIS/commit/410fe1d58ecdf73008e30935bde9ad89634cc8ed 
 
-  * https://github.com/qgis/QGIS/commit/ab457394dbe60045d785bce89cec464fb6f1e057 
+  * https://github.com/qgis/QGIS/commit/c187a2dde9330d3a13317d3b451c9e4cb86cce49 
 
 * **reprojectlayer** 
 
