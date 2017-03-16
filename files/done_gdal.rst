@@ -6,7 +6,7 @@ GDAL Algorithm list
 
 **35 test added**, **17** correctly done, **18** algorithm with issues
 
-**14 algorithm to test**
+**8 algorithm to test**
 
 
 * **aspect** 

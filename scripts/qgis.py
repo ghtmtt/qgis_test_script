@@ -44,6 +44,15 @@ done_qgis = [
 'zonalstatistics',
 'polygonfromlayerextent',
 'voronoipolygons',
+'regularpoints',
+'rectanglesovalsdiamondsvariable',
+'creategridlines',
+'creategridpolygon',
+'vectorgridlines', ##same algorithm of above
+'vectorgridpolygons', ##same algorithm of above
+'convertgeometrytype',
+'addfieldtoattributestable',
+'randompointsinextent',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
@@ -65,7 +74,18 @@ done_qgis = [
 'executesql',
 'statisticsbycategories',
 'randompointsinlayerbounds',
-'randompointsinextent',
+'barplot',
+'vectorlayerhistogram',
+'vectorlayerscatterplot',
+'polarplot',
+'meanandstandarddeviationplot',
+'rasterlayerhistogram',
+'serviceareafromlayer',
+'serviceareafrompoint',
+'shortestpathlayertopoint',
+'shortestpathpointtolayer',
+'shortestpathpointtopoint',
+'extractbylocation'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -162,6 +182,36 @@ d_qgis['voronoipolygons']['test'] = ['yes']
 d_qgis['voronoipolygons']['parameter'] = ['standard', 'with buffer']
 d_qgis['voronoipolygons']['commit'] = ['e50099d5aa7b1fb1e8bfa7e59b84a6c2d46979d6', '6cae0550d593f77cb9bffb07955c9864b44274cd', '0e1800f024696d4e14f8ece0454c8da34c018c35']
 
+d_qgis['regularpoints']['test'] = ['yes']
+d_qgis['regularpoints']['parameter'] = ['standard']
+d_qgis['regularpoints']['commit'] = ['73c78dbdfaca03723c3d7bce3de9572bac0fc164']
+
+d_qgis['rectanglesovalsdiamondsvariable']['test'] = ['yes']
+d_qgis['rectanglesovalsdiamondsvariable']['parameter'] = ['rectangular', 'diamond', 'oval']
+d_qgis['rectanglesovalsdiamondsvariable']['commit'] = ['a5d338b2e092ab4bf12e6f1d64db4347434ceed6']
+
+d_qgis['creategridlines']['test'] = ['yes']
+d_qgis['creategridlines']['parameter'] = ['standard']
+d_qgis['creategridlines']['commit'] = ['4dbc8ca7ac9be786811ae0eb32367d993951ddbd']
+
+d_qgis['creategridpolygon']['test'] = ['yes']
+d_qgis['creategridpolygon']['parameter'] = ['standard']
+d_qgis['creategridpolygon']['note'] = ['test already made, but algorithm has another name']
+
+d_qgis['convertgeometrytype']['test'] = ['yes']
+d_qgis['convertgeometrytype']['parameter'] = ['polygon to centroid', 'polygon to multilinestring', 'polygon to nodes']
+d_qgis['convertgeometrytype']['commit'] = ['8b78c46264be6c070e381dc0bf4a9016bc1182e9']
+
+d_qgis['addfieldtoattributestable']['test'] = ['yes']
+d_qgis['addfieldtoattributestable']['parameter'] = ['add float field']
+d_qgis['addfieldtoattributestable']['commit'] = ['49715db7833de49ce6a66b04bdded75bbf8a1fdd']
+
+d_qgis['randompointsinextent']['test'] = ['yes']
+d_qgis['randompointsinextent']['parameter'] = ['standard']
+d_qgis['randompointsinextent']['test'] = ['c1a5504bdaef87ee87733af60f6aa0d37ff50eb7']
+d_qgis['randompointsinextent']['note'] = ['test that checks if the provider works without comparing the outputs']
+
+
 
 
 ## TEST RUN BUT NOT UPLOADABLE
@@ -233,13 +283,42 @@ d_qgis['randompointsinlayerbounds']['parameter'] = ['standard', 'with buffer']
 d_qgis['randompointsinlayerbounds']['commit'] = ['a6439cb48f2c69dda848c72e4e8b7faef54bc2a6']
 d_qgis['randompointsinlayerbounds']['note'] = ['random test point created in the test HAVE TO be different from source layer. Tricky test to upload']
 
-d_qgis['randompointsinextent']['test'] = ['no']
-d_qgis['randompointsinextent']['parameter'] = ['standard']
-d_qgis['randompointsinextent']['test'] = ['a6439cb48f2c69dda848c72e4e8b7faef54bc2a6']
-d_qgis['randompointsinextent']['note'] = ['random test point created in the test HAVE TO be different from source layer. Tricky test to upload']
 
+d_qgis['barplot']['test'] = ['no']
+d_qgis['barplot']['note'] = ['test not uploadable']
 
+d_qgis['vectorlayerhistogram']['test'] = ['no']
+d_qgis['vectorlayerhistogram']['note'] = ['test not uploadable']
 
+d_qgis['vectorlayerscatterplot']['test'] = ['no']
+d_qgis['vectorlayerscatterplot']['note'] = ['test not uploadable']
+
+d_qgis['polarplot']['test'] = ['no']
+d_qgis['polarplot']['note'] = ['test not uploadable']
+
+d_qgis['meanandstandarddeviationplot']['test'] = ['no']
+d_qgis['meanandstandarddeviationplot']['note'] = ['test not uploadable']
+
+d_qgis['rasterlayerhistogram']['test'] = ['no']
+d_qgis['rasterlayerhistogram']['note'] = ['test not uploadable']
+
+d_qgis['serviceareafromlayer']['test'] = ['no']
+d_qgis['serviceareafromlayer']['note'] = ['test not uploadable due to iface calling']
+
+d_qgis['serviceareafrompoint']['test'] = ['no']
+d_qgis['serviceareafrompoint']['note'] = ['test not uploadable due to iface calling']
+
+d_qgis['shortestpathlayertopoint']['test'] = ['no']
+d_qgis['shortestpathlayertopoint']['note'] = ['test not uploadable due to iface calling']
+
+d_qgis['shortestpathpointtolayer']['test'] = ['no']
+d_qgis['shortestpathpointtolayer']['note'] = ['test not uploadable due to iface calling']
+
+d_qgis['shortestpathpointtopoint']['test'] = ['no']
+d_qgis['shortestpathpointtopoint']['note'] = ['test not uploadable due to iface calling']
+
+d_qgis['extractbylocation']['test'] = ['no']
+d_qgis['extractbylocation']['note'] = ['not possible to check multiple input in test (geometry predicate)']
 
 
 

@@ -2,17 +2,11 @@
 QGIS Missing Algorithm list
 ###########################
 
-* **addfieldtoattributestable** 
-
 * **advancedpythonfieldcalculator** 
-
-* **barplot** 
 
 * **buildvirtualvector** 
 
 * **checkvalidity** 
-
-* **convertgeometrytype** 
 
 * **createconstantrasterlayer** 
 
@@ -29,8 +23,6 @@ QGIS Missing Algorithm list
 * **eliminateselectedpolygons** 
 
 * **explodelines** 
-
-* **extractbylocation** 
 
 * **fieldcalculator** 
 
@@ -50,8 +42,6 @@ QGIS Missing Algorithm list
 
 * **listuniquevalues** 
 
-* **meanandstandarddeviationplot** 
-
 * **mergevectorlayers** 
 
 * **nearestneighbouranalysis** 
@@ -62,8 +52,6 @@ QGIS Missing Algorithm list
 
 * **pointstopath** 
 
-* **polarplot** 
-
 * **randomextractwithinsubsets** 
 
 * **randompointsalongline** 
@@ -72,29 +60,13 @@ QGIS Missing Algorithm list
 
 * **randompointsinsidepolygonsvariable** 
 
-* **rasterlayerhistogram** 
-
 * **rasterlayerstatistics** 
 
-* **rectanglesovalsdiamondsvariable** 
-
 * **refactorfields** 
-
-* **regularpoints** 
 
 * **reverselinedirection** 
 
 * **saveselectedfeatures** 
-
-* **serviceareafromlayer** 
-
-* **serviceareafrompoint** 
-
-* **shortestpathlayertopoint** 
-
-* **shortestpathpointtolayer** 
-
-* **shortestpathpointtopoint** 
 
 * **snappointstogrid** 
 
@@ -107,14 +79,6 @@ QGIS Missing Algorithm list
 * **texttofloat** 
 
 * **union** 
-
-* **vectorgridlines** 
-
-* **vectorgridpolygons** 
-
-* **vectorlayerhistogram** 
-
-* **vectorlayerscatterplot** 
 
 * **zonalstatisticsqgis** 
 

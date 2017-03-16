@@ -2,6 +2,12 @@
 QGIS Algorithm with issues
 ##########################
 
+* **barplot** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
+
 * **basicstatisticsfornumericfields** algorithm or test not working!
 
  * note: 
@@ -36,6 +42,12 @@ QGIS Algorithm with issues
 
   * algorithm works nice, but test fails. Thanks to the test, outputname fixed. Anyway, a commit has been made to change the output name of the algorithm 
 
+* **extractbylocation** algorithm or test not working!
+
+ * note: 
+
+  * not possible to check multiple input in test (geometry predicate) 
+
 * **frequencyanalysis** algorithm or test not working!
 
  * note: 
@@ -57,6 +69,18 @@ QGIS Algorithm with issues
  * note: 
 
   * output not uploadable for the test 
+
+* **meanandstandarddeviationplot** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
+
+* **polarplot** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
 
 * **postgisexecutesql** algorithm or test not working!
 
@@ -102,6 +126,12 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
+* **rasterlayerhistogram** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
+
 * **selectbyattribute** algorithm or test not working!
 
  * note: 
@@ -126,6 +156,18 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
+* **serviceareafromlayer** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable due to iface calling 
+
+* **serviceareafrompoint** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable due to iface calling 
+
 * **setstyleforrasterlayer** algorithm or test not working!
 
  * note: 
@@ -138,6 +180,24 @@ QGIS Algorithm with issues
 
   * output not uploadable for the test 
 
+* **shortestpathlayertopoint** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable due to iface calling 
+
+* **shortestpathpointtolayer** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable due to iface calling 
+
+* **shortestpathpointtopoint** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable due to iface calling 
+
 * **statisticsbycategories** algorithm or test not working!
 
  * note: 
@@ -147,4 +207,16 @@ QGIS Algorithm with issues
  * ticket: 
 
   * http://hub.qgis.org/issues/16133 
+
+* **vectorlayerhistogram** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
+
+* **vectorlayerscatterplot** algorithm or test not working!
+
+ * note: 
+
+  * test not uploadable 
 
