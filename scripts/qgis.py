@@ -11,11 +11,6 @@ sys.path.append('/home/matteo/lavori/qgis_test_script/scripts')
 from writerst import write_rst
 
 # yaml file from the repo, ALL THE TESTS MADE!
-f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/gdal_algorithm_tests.yaml')
-data_gdal = yaml.safe_load(f)
-f.close()
-
-# yaml file from the repo, ALL THE TESTS MADE!
 f = open('/home/matteo/lavori/QGIS/QGIS/python/plugins/processing/tests/testdata/qgis_algorithm_tests.yaml')
 data_qgis = yaml.safe_load(f)
 f.close()
@@ -25,7 +20,7 @@ f_qgis = []
 
 for k, v in data_qgis.items():
     for i in v:
-        f_qgis.append(i['algorithm'][5:])
+        f_qgis.append(i['algorithm'].split(':')[1])
 
 
 # fill manually all the algorithm tested, EVEN IF TEST FAILS!
@@ -64,7 +59,6 @@ done_qgis = [
 'postgisexecutesql',
 'randomselection',
 'randomselectionwithinsubsets',
-'selectbyattribute',
 'selectbyattributesum',
 'selectbyexpression',
 'selectbylocation',
@@ -245,9 +239,6 @@ d_qgis['randomselection']['note'] = ['output not uploadable for the test']
 
 d_qgis['randomselectionwithinsubsets']['test'] = ['no']
 d_qgis['randomselectionwithinsubsets']['note'] = ['output not uploadable for the test']
-
-d_qgis['selectbyattribute']['test'] = ['no']
-d_qgis['selectbyattribute']['note'] = ['output not uploadable for the test']
 
 d_qgis['selectbyattributesum']['test'] = ['no']
 d_qgis['selectbyattributesum']['note'] = ['output not uploadable for the test']

@@ -21,7 +21,7 @@ f_gdal = []
 # just clean the list to get the algorithm name
 for k, v in data_gdal.items():
     for i in v:
-        f_gdal.append(i['algorithm'][5:])
+        f_gdal.append(i['algorithm'].split(':')[1])
 
 
 # fill manually all the algorithm tested, EVEN IF TEST FAILS!
