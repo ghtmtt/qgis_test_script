@@ -98,6 +98,16 @@ QGIS Algorithm with issues
 
   * http://hub.qgis.org/issues/16069 
 
+* **randomextractwithinsubsets** algorithm or test not working!
+
+ * note: 
+
+  * bug for the algorithm 
+
+ * ticket: 
+
+  * http://hub.qgis.org/issues/16211 
+
 * **randompointsinlayerbounds** algorithm or test not working!
 
  * commit: 
@@ -114,37 +124,13 @@ QGIS Algorithm with issues
 
   * with buffer 
 
-* **randomselection** algorithm or test not working!
-
- * note: 
-
-  * output not uploadable for the test 
-
-* **randomselectionwithinsubsets** algorithm or test not working!
-
- * note: 
-
-  * output not uploadable for the test 
-
 * **rasterlayerhistogram** algorithm or test not working!
 
  * note: 
 
   * test not uploadable 
 
-* **selectbyattribute** algorithm or test not working!
-
- * note: 
-
-  * output not uploadable for the test 
-
 * **selectbyattributesum** algorithm or test not working!
-
- * note: 
-
-  * output not uploadable for the test 
-
-* **selectbyexpression** algorithm or test not working!
 
  * note: 
 

@@ -4,9 +4,9 @@ QGIS Algorithm list
 
 **154 total algorithms**
 
-**55 test added**, **20** correctly done, **32** algorithm with issues
+**55 test added**, **24** correctly done, **29** algorithm with issues
 
-**40 algorithm to test**
+**39 algorithm to test**
 
 
 * **addfieldtoattributestable** 
@@ -125,6 +125,32 @@ QGIS Algorithm list
 
   * https://github.com/qgis/QGIS/commit/c187a2dde9330d3a13317d3b451c9e4cb86cce49 
 
+* **randompointsinextent** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/c1a5504bdaef87ee87733af60f6aa0d37ff50eb7 
+
+ * note: 
+
+  * test that checks if the provider works without comparing the outputs 
+
+ * parameter: 
+
+  * standard 
+
+* **randomselection** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/f4f51ac7985ca32b5a02b064390eb093db74fba1 
+
+* **randomselectionwithinsubsets** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/744af4f591cf1665d26a1d0241763cb27cd3aa34 
+
 * **rectanglesovalsdiamondsvariable** 
 
  * commit: 
@@ -154,6 +180,16 @@ QGIS Algorithm list
  * commit: 
 
   * https://github.com/qgis/QGIS/commit/627ce52ef5857f5bdaa5857e44f48a9028585ca8 
+
+* **selectbyexpression** 
+
+ * commit: 
+
+  * https://github.com/qgis/QGIS/commit/ee36a0dac7dc904b7bbcdf1997ad83f5e26b1530 
+
+ * parameter: 
+
+  * id2" = 0 and "id" > 7 
 
 * **singlepartstomultipart** 
 

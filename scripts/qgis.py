@@ -48,6 +48,9 @@ done_qgis = [
 'convertgeometrytype',
 'addfieldtoattributestable',
 'randompointsinextent',
+'selectbyexpression',
+'randomselection',
+'randomselectionwithinsubsets',
 ### test not made but ticket opened
 'concavehull',
 'randomextract',
@@ -57,10 +60,7 @@ done_qgis = [
 'importintopostgis',
 'importintospatialite',
 'postgisexecutesql',
-'randomselection',
-'randomselectionwithinsubsets',
 'selectbyattributesum',
-'selectbyexpression',
 'selectbylocation',
 'setstyleforrasterlayer',
 'setstyleforvectorlayer',
@@ -79,7 +79,8 @@ done_qgis = [
 'shortestpathlayertopoint',
 'shortestpathpointtolayer',
 'shortestpathpointtopoint',
-'extractbylocation'
+'extractbylocation',
+'randomextractwithinsubsets'
 ]
 
 # add some missing algorithm to the f_gdal list
@@ -202,10 +203,18 @@ d_qgis['addfieldtoattributestable']['commit'] = ['49715db7833de49ce6a66b04bdded7
 
 d_qgis['randompointsinextent']['test'] = ['yes']
 d_qgis['randompointsinextent']['parameter'] = ['standard']
-d_qgis['randompointsinextent']['test'] = ['c1a5504bdaef87ee87733af60f6aa0d37ff50eb7']
+d_qgis['randompointsinextent']['commit'] = ['c1a5504bdaef87ee87733af60f6aa0d37ff50eb7']
 d_qgis['randompointsinextent']['note'] = ['test that checks if the provider works without comparing the outputs']
 
+d_qgis['selectbyexpression']['test'] = ['yes']
+d_qgis['selectbyexpression']['parameter'] = ['id2" = 0 and "id" > 7']
+d_qgis['selectbyexpression']['commit'] = ['ee36a0dac7dc904b7bbcdf1997ad83f5e26b1530']
 
+d_qgis['randomselection']['test'] = ['yes']
+d_qgis['randomselection']['commit'] = ['f4f51ac7985ca32b5a02b064390eb093db74fba1']
+
+d_qgis['randomselectionwithinsubsets']['test'] = ['yes']
+d_qgis['randomselectionwithinsubsets']['commit'] = ['744af4f591cf1665d26a1d0241763cb27cd3aa34']
 
 
 ## TEST RUN BUT NOT UPLOADABLE
@@ -234,17 +243,8 @@ d_qgis['importintospatialite']['note'] = ['output not uploadable for the test']
 d_qgis['postgisexecutesql']['test'] = ['no']
 d_qgis['postgisexecutesql']['note'] = ['output not uploadable for the test']
 
-d_qgis['randomselection']['test'] = ['no']
-d_qgis['randomselection']['note'] = ['output not uploadable for the test']
-
-d_qgis['randomselectionwithinsubsets']['test'] = ['no']
-d_qgis['randomselectionwithinsubsets']['note'] = ['output not uploadable for the test']
-
 d_qgis['selectbyattributesum']['test'] = ['no']
 d_qgis['selectbyattributesum']['note'] = ['output not uploadable for the test']
-
-d_qgis['selectbyexpression']['test'] = ['no']
-d_qgis['selectbyexpression']['note'] = ['output not uploadable for the test']
 
 d_qgis['selectbylocation']['test'] = ['no']
 d_qgis['selectbylocation']['note'] = ['output not uploadable for the test']
@@ -311,6 +311,9 @@ d_qgis['shortestpathpointtopoint']['note'] = ['test not uploadable due to iface 
 d_qgis['extractbylocation']['test'] = ['no']
 d_qgis['extractbylocation']['note'] = ['not possible to check multiple input in test (geometry predicate)']
 
+d_qgis['randomextractwithinsubsets']['test'] = ['no']
+d_qgis['randomextractwithinsubsets']['note'] = ['bug for the algorithm']
+d_qgis['randomextractwithinsubsets']['ticket'] = ['http://hub.qgis.org/issues/16211']
 
 
 
